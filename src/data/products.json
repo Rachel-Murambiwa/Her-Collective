@@ -7,17 +7,19 @@
     "description": "A spacious, minimalist tote perfect for everyday essentials, travel, or class.",
     "image": "https://images.unsplash.com/photo-1597045566677-8cf032ed6634?q=80&w=600&auto=format&fit=crop",
     "colors": ["Oatmilk", "Espresso", "Sage"],
-    "sizes": []
+    "sizes": [],
+    "inStock": true
   },
   {
     "id": "2",
     "name": "Vanilla Silk Body & Hair Mist",
     "category": "Perfumes",
     "price": 18.50,
-    "description": "A soft, lingering scent of warm vanilla and sweet cream. Perfect for the clean girl aesthetic.",
+    "description": "A soft, lingering scent of warm vanilla and sweet cream.",
     "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=600&auto=format&fit=crop",
     "colors": [],
-    "sizes": ["50ml", "100ml"]
+    "sizes": ["50ml", "100ml"],
+    "inStock": true
   },
   {
     "id": "3",
@@ -27,16 +29,7 @@
     "description": "Keep your hair effortlessly swept up with this duo of durable, aesthetic claw clips.",
     "image": "https://images.unsplash.com/photo-1626290074693-8ce05f6e8105?q=80&w=600&auto=format&fit=crop",
     "colors": ["Pearl/Gold"],
-    "sizes": []
-  },
-  {
-    "id": "4",
-    "name": "Aesthetic Car Air Freshener",
-    "category": "Car Accessories",
-    "price": 8.00,
-    "description": "A sleek, minimalist diffuser that clips to your vent, keeping your car smelling like a luxury spa.",
-    "image": "https://images.unsplash.com/photo-1601312316885-3b1a8f949514?q=80&w=600&auto=format&fit=crop",
-    "colors": ["Rose Gold", "Matte Black"],
-    "sizes": []
+    "sizes": [],
+    "inStock": false
   }
 ]
