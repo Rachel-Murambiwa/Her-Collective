@@ -6,26 +6,27 @@ export default function ProductCard({ product, addToCart }) {
   const [activeVariant, setActiveVariant] = useState(hasVariants ? product.variants[0] : null);
   const [selectedSize, setSelectedSize] = useState(product.sizes?.[0] || '');
 
-  // State to hold the selected phone model
+  // THE MAGIC FIX: It checks the variant first. If none exists, it checks the main product.
+  const availableModels = activeVariant?.models || product.models || [];
+
   const [selectedModel, setSelectedModel] = useState(
-    hasVariants && product.variants[0].models ? product.variants[0].models[0].model : ''
+    availableModels.length > 0 ? availableModels[0].model : ''
   );
 
-  // If the customer clicks a different design, reset the phone model list
   useEffect(() => {
-    if (activeVariant?.models && activeVariant.models.length > 0) {
-      const modelExists = activeVariant.models.some(m => m.model === selectedModel);
+    if (availableModels.length > 0) {
+      const modelExists = availableModels.some(m => m.model === selectedModel);
       if (!modelExists) {
-        setSelectedModel(activeVariant.models[0].model);
+        setSelectedModel(availableModels[0].model);
       }
     } else {
       setSelectedModel('');
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeVariant]);
 
   const displayImage = hasVariants ? activeVariant.image : product.image;
   
-  // Cleanly handle cases where there is no color name
   let displayColorName = '';
   if (hasVariants && activeVariant.color) {
     displayColorName = activeVariant.style ? `${activeVariant.color} (${activeVariant.style})` : activeVariant.color;
@@ -33,15 +34,14 @@ export default function ProductCard({ product, addToCart }) {
 
   const handleAddToCart = () => {
     if (product.inStock) {
-      // Pass the phone model or regular size to the cart
       const finalSize = selectedModel || selectedSize;
       addToCart(product, displayColorName, finalSize);
     }
   }
 
   return (
-    <div className={`group flex flex-col h-full ${!product.inStock ? 'opacity-75' : ''}`}>
-      {/* Main Large Image Container */}
+    <div className={`group flex flex-col ${!product.inStock ? 'opacity-75' : ''}`}>
+      
       <div className="w-full overflow-hidden rounded-2xl bg-vanilla relative">
         <img
           src={displayImage}
@@ -57,7 +57,7 @@ export default function ProductCard({ product, addToCart }) {
         )}
       </div>
       
-      <div className="mt-5 flex-grow flex flex-col text-espresso">
+      <div className="mt-5 flex flex-col text-espresso">
         <div className="flex justify-between items-start mb-2">
           <div>
             <h3 className="text-lg font-medium tracking-wide">{product.name}</h3>
@@ -68,9 +68,8 @@ export default function ProductCard({ product, addToCart }) {
           <p className="text-lg font-medium">${product.price.toFixed(2)}</p>
         </div>
 
-        <div className="mt-auto pt-4 space-y-5">
+        <div className="mt-4 space-y-5">
           
-          {/* THE THUMBNAIL IMAGE SELECTORS */}
           {hasVariants && product.variants.length > 1 && (
             <div className="flex flex-col gap-2">
               {displayColorName && (
@@ -102,19 +101,19 @@ export default function ProductCard({ product, addToCart }) {
             </div>
           )}
 
-          {/* NEW: Device Model TABS */}
-          {activeVariant?.models && activeVariant.models.length > 0 && (
+          {/* DYNAMIC MODELS RENDER */}
+          {availableModels.length > 0 && (
             <div className="space-y-2">
               <p className="text-xs font-bold text-espresso/70 uppercase tracking-wider pl-1">Device Model</p>
               <div className="flex flex-wrap gap-2">
-                {activeVariant.models.map((m, idx) => (
+                {availableModels.map((m, idx) => (
                   <button
                     key={idx}
                     onClick={() => setSelectedModel(m.model)}
-                    className={`px-4 py-2 rounded-full text-xs font-medium border transition-all ${
+                    className={`px-4 py-2 rounded-full text-xs transition-all border ${
                       selectedModel === m.model
-                        ? 'border-espresso bg-espresso text-oatmilk shadow-sm'
-                        : 'border-espresso/20 text-espresso hover:border-espresso/50 bg-transparent'
+                        ? 'border-espresso text-espresso font-semibold shadow-sm'
+                        : 'border-espresso/20 text-espresso/70 hover:border-espresso/40 bg-oatmilk'
                     }`}
                   >
                     {m.model}
@@ -124,7 +123,7 @@ export default function ProductCard({ product, addToCart }) {
             </div>
           )}
 
-          {/* NEW: Regular Size TABS */}
+          {/* REGULAR SIZES RENDER */}
           {product.sizes?.length > 0 && (
             <div className="space-y-2">
               <p className="text-xs font-bold text-espresso/70 uppercase tracking-wider pl-1">Size</p>
@@ -133,10 +132,10 @@ export default function ProductCard({ product, addToCart }) {
                   <button
                     key={idx}
                     onClick={() => setSelectedSize(size)}
-                    className={`px-4 py-2 rounded-full text-xs font-medium border transition-all ${
+                    className={`px-4 py-2 rounded-full text-xs transition-all border ${
                       selectedSize === size
-                        ? 'border-espresso bg-espresso text-oatmilk shadow-sm'
-                        : 'border-espresso/20 text-espresso hover:border-espresso/50 bg-transparent'
+                        ? 'border-espresso text-espresso font-semibold shadow-sm'
+                        : 'border-espresso/20 text-espresso/70 hover:border-espresso/40 bg-oatmilk'
                     }`}
                   >
                     {size}
@@ -146,7 +145,6 @@ export default function ProductCard({ product, addToCart }) {
             </div>
           )}
 
-          {/* Add to Cart Button */}
           {product.inStock ? (
             <button 
               onClick={handleAddToCart}

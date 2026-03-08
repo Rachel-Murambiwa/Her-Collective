@@ -8,20 +8,14 @@
     "variants": [
       {
         "color": "Black",
-        "style": "bows and flowers",
-        "colorHex": "#F5F2E9",
         "image": "https://img.joomcdn.net/22c2124f61e6aab5a566dad8450a1cc1cc05d297_original.jpeg"
       },
       {
         "color": "Pink",
-        "style": "bows and flowers",
-        "colorHex": "#4A3B32",
         "image": "https://img.joomcdn.net/e693f761bbc44dfe5033bf279d9e67e0a300e1be_original.jpeg"
       },
       {
         "color": "White",
-        "style": "bows and flowers",
-        "colorHex": "#C1CAC0",
         "image": "https://img.nihaojewelry.com/fit-in/800x800/filters:quality(80)/filters:format(webp)/product/2025/6/9/1931953807131021312/Cute-Cherry-Print-Baseball-Bag-New-Handbag-Women-s-High-End-Style-Shoulder-Bag-Commuter-Crossbody-Bag-4.jpg"
       }
     ],
@@ -159,33 +153,448 @@
   },
   {
     "id": "7",
-    "name": "Cute Phone Cases and Charger Cases",
-    "category": "Phone Cases & Charger Cases",
+    "name": "Floral Phone Cases and Charger Cases",
+    "category": "Phone Accessories",
     "price": 10.00,
     "description": "Cute phone cases and charger cases.",
+    "image": "https://img.kwcdn.com/product/open/7dc6d5b25f7d45f8b02361f8ff69c142-goods.jpeg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+    "models": [
+          {
+            "model": "iPhone 11"
+          },
+          {
+            "model": "iPhone 11 Pro Max"
+          },
+          {
+            "model": "iPhone 12"
+          },
+          {
+            "model": "iPhone 12 Pro"
+          },
+          {
+            "model": "iPhone 12 Pro Max"
+          },
+          {
+            "model": "iPhone 13"
+          },
+          {
+            "model": "iPhone 13 Pro"
+          },
+          {
+            "model": "iPhone 13 Pro Max"
+          },
+            {
+                "model": "iPhone 14"
+            },
+            {
+                "model": "iPhone 14 Pro"
+            },
+            {
+                "model": "iPhone 14 Plus"
+            },
+            {
+                "model": "iPhone 15"
+            },
+            {
+                "model": "iPhone 15 Pro Max"
+            },
+            {
+                "model": "iPhone 16"
+            },
+            {
+                "model": "iPhone 16 Pro"
+            },
+            {
+                "model": "iPhone 16 Pro Max"
+            }
+        ],
+
+    "inStock": true
+  },
+
+  {
+    "id" : "8",
+    "name" : "Phone cases and charger cases with bows",
+    "category" : "Phone Accessories",
+    "price" : 10.00,
+    "description" : "Cute phone cases and charger cases with bows.",
+    "image" : "https://img.kwcdn.com/product/fancy/8e69bd50-c833-4cce-b689-483e387af7e7.jpg",
+    "models": [
+          {
+            "model": "iPhone 11"
+          },
+          {
+            "model": "iPhone 11 Pro"
+          },
+          {
+            "model": "iPhone 11 Pro Max"
+          },
+          {
+            "model": "iPhone 12/12 Pro"
+          },
+          {
+            "model": "iPhone 12 Pro Max"
+          },
+          {
+            "model": "iPhone 13 Pro"
+          },
+          {
+            "model": "iPhone 13 Pro Max"
+          },
+            {
+                "model": "iPhone 14"
+            },
+            {
+                "model": "iPhone 14 Pro"
+            },
+            {
+                "model": "iPhone 14 Plus"
+            },
+            {
+                "model": "iPhone 14 Pro Max"
+            },
+            {
+                "model": "iPhone 15"
+            },
+            {
+                "model": "iPhone 15 Plus"
+            },
+            {
+                "model": "iPhone 15 Pro Max"
+            },
+            {
+                "model": "iPhone 16"
+            },
+            {
+                "model": "iPhone 16 Pro"
+            },
+            {
+                "model": "iPhone 16 Pro Max"
+            },
+            {
+                "model": "iPhone 17"
+            },
+            {
+                "model": "iPhone 17 Air"
+            },
+            {
+                "model": "iPhone 17 Pro"
+            },
+            {
+                "model": "iPhone 17 Pro Max"
+            }
+        ],
+    "inStock": true
+
+  },
+  {
+    "id" : "9",
+    "name" : "Iphone Charger 3 Pin Cases with Hearts",
+    "category" : "Phone Accessories",
+    "price" : 5.00,
+    "description" : "Cute phone cases and charger cases with hearts.",
+    "image" : "https://sc04.alicdn.com/kf/Ha78a8474c74747fb96a92828403c0962C.jpg",
+    "inStock": true
+  },
+  {
+    "id" : "10",
+    "name" : "Iphone Charger 2 Pin Cases with Bows",
+    "category" : "Accessories",
+    "price" : 5.00,
+    "description" : "Cute phone cases and charger cases with bows.",
     "variants": [
       {
-
-        "image": "https://img.kwcdn.com/product/open/7dc6d5b25f7d45f8b02361f8ff69c142-goods.jpeg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
-        "models": [
-          {
-            "model": "iPhone 14 Pro Max"
-          },
-          {
-            "model": "iPhone 14 Pro"
-          },
-          {
-            "model": "iPhone 14 Plus"
-          },
-          {
-            "model": "iPhone 14"
-
-          }
-        ]
-
+        "color": "Pink",
+        "image": "https://sc04.alicdn.com/kf/Hd42605a4bf654fc29308bdc3a9aa3912U.jpg"
+      },
+      {
+        "color": "Purple",
+        "image": "https://img.kwcdn.com/product/fancy/485c91e5-fc24-417d-aa12-315bb6051063.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+      },
+      {
+        "color": "Black",
+        "image": "https://img.kwcdn.com/product/algo_check/auto/ae5a33f3a11d1a34029dae3f5e459bc8_1746873605541.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
       }
     ],
     "inStock": true
+  },
+  {
+    "id" : "11",
+    "name" : "Iphone Charger 3 Pin Cases with Bows",
+    "category" : "Phone Accessories",
+    "price" : 5.00,
+    "description" : "Cute phone cases and charger cases with bows.",
+    "variants": [
+      {
+        "color": "Purple",
+        "image": "https://images.aasaan.shop/stores/magpiegears/products/product_images/product_1753892650227.png"
+      },
+      {
+        "color": "Pink",
+        "image": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/16/8410914/1.jpg?0359"
+      },
+      {
+        "color": "Black",
+        "image": "https://caseskyke.com/wp-content/uploads/2023/10/case-14-1000x1070.jpeg"
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id" : "12",
+    "name" : "Clear phone case with bows and cherries",
+    "category" : "Phone Accessories",
+    "price" : 6.00,
+    "description" : "Cute phone case ",
+    "image" : "https://http2.mlstatic.com/D_Q_NP_2X_688985-CBT95598104636_102025-P-funda-case-para-iphone-de-uso-rudo-con-diseno-de-lazo-correas.webp",
+    "models": [
+        {
+            "model": "iPhone 7/8"
+        },
+        {
+            "model": "iPhone 7/8 Plus"
+        },
+        {
+            "model": "iPhone X/XS"
+        },
+        {
+            "model": "iPhone XS Max"
+        },
+        {
+            "model": "iPhone XR"
+        },
+        {
+            "model": "iPhone 11 Pro"
+        },
+        {
+            "model": "iPhone 11 Pro Max"
+        },
+        {
+            "model": "iPhone 12"
+        },
+        {
+            "model": "iPhone 12 Pro Max"
+        },
+        {
+            "model": "iPhone 12 Mini"
+        },
+        {
+            "model": "iPhone 12 Pro"
+        },
+        {
+            "model": "iPhone 13 Mini"
+        },
+        {
+            "model": "iPhone 13 Pro Max"
+        },
+            {
+                "model": "iPhone 14"
+            },
+            {
+                "model": "iPhone 14 Pro"
+            },
+            {
+                "model": "iPhone 14 Plus"
+            },
+            {
+                "model": "iPhone 14 Pro Max"
+            },
+            {
+                "model": "iPhone 15"
+            },
+            {
+                "model": "iPhone 15 Plus"
+            },
+            {
+                "model": "iPhone 15 Pro Max"
+            },
+            {
+                "model": "iPhone 16"
+            },
+            {
+                "model": "iPhone 16 Pro"
+            },
+            {
+                "model": "iPhone 16 Pro Max"
+            },
+            {
+                "model": "iPhone 17"
+            },
+            {
+                "model": "iPhone 17 Air"
+            },
+            {
+                "model": "iPhone 17 Pro"
+            },
+            {
+                "model": "iPhone 17 Pro Max"
+            }
+        ],
+        
+    "inStock": true
+
+  },
+  {
+    "id" : "13",
+    "name" : "Clear phone case with butterflies",
+    "category" : "Phone Accessories",
+    "price" : 6.00,
+    "description" : "Cute phone case ",
+    "image" : "https://i.ebayimg.com/images/g/WykAAOSwdSBnci6l/s-l1200.jpg",
+    "models": [
+        {
+            "model": "iPhone 7/8"
+        },
+        {
+            "model": "iPhone 7/8 Plus"
+        },
+        {
+            "model": "iPhone X/XS"
+        },
+        {
+            "model": "iPhone XS Max"
+        },
+        {
+            "model": "iPhone XR"
+        },
+        {
+            "model": "iPhone 11 Pro"
+        },
+        {
+            "model": "iPhone 11 Pro Max"
+        },
+        {
+            "model": "iPhone 12"
+        },
+        {
+            "model": "iPhone 12 Pro Max"
+        },
+        {
+            "model": "iPhone 12 Mini"
+        },
+        {
+            "model": "iPhone 12 Pro"
+        },
+        {
+            "model": "iPhone 13 Mini"
+        },
+        {
+            "model": "iPhone 13 Pro Max"
+        },
+            {
+                "model": "iPhone 14"
+            },
+            {
+                "model": "iPhone 14 Pro"
+            },
+            {
+                "model": "iPhone 14 Plus"
+            },
+            {
+                "model": "iPhone 14 Pro Max"
+            },
+            {
+                "model": "iPhone 15"
+            },
+            {
+                "model": "iPhone 15 Plus"
+            },
+            {
+                "model": "iPhone 15 Pro Max"
+            },
+            {
+                "model": "iPhone 16"
+            },
+            {
+                "model": "iPhone 16 Pro"
+            },
+            {
+                "model": "iPhone 16 Pro Max"
+            },
+            {
+                "model": "iPhone 17"
+            },
+            {
+                "model": "iPhone 17 Air"
+            },
+            {
+                "model": "iPhone 17 Pro"
+            }
+    ],
+    "inStock": true
+    },
+    {
+    "id": "14",
+    "name": "Full Body Protective Phone Case",
+    "category": "Phone Accessories",
+    "price": 7.00,
+    "description": "A sleek, protective case available in multiple colors.",
+    
+    "models": [
+      { "model": "iPhone 17" },
+      { "model": "iPhone 17 Pro" },
+      { "model": "iPhone 17 Pro Max" },
+      { "model": "Apple iPhone Air" },
+      { "model": "iPhone 16" },
+      { "model": "iPhone 16 Pro" }
+    ],
+
+    "variants": [
+        {
+        "color": "Clear",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/04/7a/17490346768a0fa23a7f45431ece6c4382083bad28_thumbnail_750x999.jpg"
+        },
+      {
+        "color": "Black",
+        "image": "https://m.media-amazon.com/images/I/71LRzPIDuML._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "color": "Red",
+        "image": "https://i5.walmartimages.com/seo/Fun-Casery-Designed-for-iPhone-14-Case-with-Built-in-Screen-Protector-Heavy-Duty-Full-Body-Protection-Rugged-Shockproof-Clear-Case-Cover-Red_1ad194f3-2a12-4b9f-9656-7813220bc8ea.106ca5d0002f7d5ada762108e2bc4591.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+      },
+      {
+        "color": "Purple",
+        "image": "https://m.media-amazon.com/images/I/71WzNfS9XsL.jpg"
+      },
+        {
+            "color": "Pink",
+            "image": "https://sc04.alicdn.com/kf/H753cee25312b48489ad63bc72da3cedcV.jpeg"
+        },
+        {
+            "color": "Blue",
+            "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2ZGOnUHUOw8P1-sXXArbUwAlz84Y9vnLqVsTP1KnT1eWnC1Mo"
+        },
+        {
+            "color": "Green",
+            "image": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/e0c2f6287013985bac61c80b7991cf08.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+        }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 15,
+    "name": "8-in-1 Hair Accessories Set",
+    "category": "Hair Accessories",
+    "price": 10.00,
+    "description": "A set of hair accessories with multiple styling options.",
+    "variants": [
+      {
+        "color": "Pink",
+        "image": "https://s.alicdn.com/@sc04/kf/Hd41f89ad3c564c58bfd710938c17677fL/Wholesale-Women-Accessories-Hair-Clips-Elegant-Hair-Claw-Customized-Color-Multiple-Shaped-Hair-Clip-Claw-Set.jpg"
+      },
+      {
+        "color": "Black",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/03/20/61/1742455029b0e480ac29622d7abe4a890c68a2f611_thumbnail_405x552.jpg"
+      },
+      {
+        "color": "White",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/02/47/1751441858a3036f2f9079cbfdea9f157a5a89b997_thumbnail_405x552.jpg"
+      }
+    ],
+    "image": "https://i.ebayimg.com/images/g/WykAAOSwdSBnci6l/s-l1200.jpg",
+
+    "inStock": true
   }
+
 
 ]

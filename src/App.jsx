@@ -10,36 +10,25 @@ export default function App() {
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [isCommunityOpen, setIsCommunityOpen] = useState(false)
 
-  // NEW: States for Sorting and Filtering
   const [sortBy, setSortBy] = useState('A-Z')
   const [priceFilter, setPriceFilter] = useState('ALL')
   const [availabilityFilter, setAvailabilityFilter] = useState('ALL')
 
-  // Filter products by Search, Category, Availability, and Price
   let processedProducts = productsData.filter((product) => {
-    // 1. Search Filter
     const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
                           product.category.toLowerCase().includes(searchQuery.toLowerCase());
-    
-    // 2. Category Filter
     const matchesCategory = activeCategory === 'ALL' || 
                             product.category.toLowerCase().includes(activeCategory.toLowerCase()) ||
                             (activeCategory === 'FRAGRANCES' && product.category.toLowerCase().includes('perfume')) ||
                             (activeCategory === 'BAGS' && product.category.toLowerCase().includes('bag')) ||
                             (activeCategory === 'BAGS' && product.category.toLowerCase().includes('tote'));
-    
-    // 3. Availability Filter
     const matchesAvailability = availabilityFilter === 'ALL' || (availabilityFilter === 'IN_STOCK' && product.inStock);
-
-    // 4. Price Filter
     const matchesPrice = priceFilter === 'ALL' || 
                          (priceFilter === 'UNDER_20' && product.price < 20) ||
                          (priceFilter === 'OVER_20' && product.price >= 20);
-    
     return matchesSearch && matchesCategory && matchesAvailability && matchesPrice;
   })
 
-  // Sort the filtered products
   processedProducts.sort((a, b) => {
     if (sortBy === 'A-Z') return a.name.localeCompare(b.name);
     if (sortBy === 'Z-A') return b.name.localeCompare(a.name);
@@ -48,7 +37,6 @@ export default function App() {
     return 0;
   });
 
-  // Cart Logic
   const addToCart = (product, color, size) => {
     setCart(prevCart => {
       const existingItem = prevCart.find(item => item.id === product.id && item.color === color && item.size === size)
@@ -68,7 +56,7 @@ export default function App() {
 
   const handleWhatsAppCheckout = () => {
     if (cart.length === 0) return;
-    const phoneNumber = "233YOURNUMBERHERE"; // REMEMBER TO ADD YOUR NUMBER HERE
+    const phoneNumber = "233YOURNUMBERHERE"; 
     let message = "Hi HerCollective! 🤍 I would like to place an order:\n\n";
     cart.forEach((item) => {
       message += `▪️ ${item.quantity}x ${item.name}\n`;
@@ -80,21 +68,19 @@ export default function App() {
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, "_blank");
   }
 
-  // Navigation Links
-  const navLinks = ['BAGS', 'FRAGRANCES', 'JEWELLERY', 'ACCESSORIES'];
+  const navLinks = ['BAGS', 'JEWELLERY', 'PHONE ACCESSORIES', 'HAIR ACCESSORIES'];
 
   return (
     <div className="min-h-screen pb-24 relative bg-oatmilk text-espresso font-sans">
       
-      {/* --- TIER 1: Main Header (Icons & Logo) --- */}
       <header className="pt-6 pb-4 px-6 sticky top-0 bg-oatmilk/95 backdrop-blur-md z-40">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           
-          {/* Left: Search */}
           <div className="w-1/3 flex items-center gap-4">
             <button onClick={() => setIsSearchOpen(!isSearchOpen)} className="hover:opacity-70 transition-opacity">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
               </svg>
             </button>
             {isSearchOpen && (
@@ -109,24 +95,22 @@ export default function App() {
             )}
           </div>
 
-          {/* Center: Logo */}
           <div className="w-1/3 text-center">
             <h1 className="text-4xl font-serif tracking-tight cursor-pointer" onClick={() => setActiveCategory('ALL')}>
               HerCollective
             </h1>
           </div>
 
-          {/* Right: Account & Cart Icons */}
           <div className="w-1/3 flex justify-end items-center gap-6">
-            
-            {/* The Girlies Circle Dropdown */}
             <div className="relative">
               <button 
                 onClick={() => setIsCommunityOpen(!isCommunityOpen)} 
                 className="hover:opacity-70 transition-opacity flex items-center"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                {/* NEW MINIMALIST ACCOUNT ICON */}
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
                 </svg>
               </button>
 
@@ -151,10 +135,11 @@ export default function App() {
               )}
             </div>
 
-            {/* Cart Toggle Button */}
             <button onClick={() => setIsCartOpen(true)} className="hover:opacity-70 transition-opacity relative">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+              {/* NEW MINIMALIST BAG ICON */}
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M8 7V5a4 4 0 0 1 8 0v2"></path>
+                <path d="M4 7l-1 14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2l-1-14H4z"></path>
               </svg>
               {cart.length > 0 && (
                 <span className="absolute -top-1 -right-2 bg-espresso text-oatmilk text-[10px] font-bold h-4 w-4 flex items-center justify-center rounded-full">
@@ -165,7 +150,6 @@ export default function App() {
           </div>
         </div>
 
-        {/* --- TIER 2: Category Navigation --- */}
         <nav className="max-w-7xl mx-auto mt-8 hidden md:flex justify-center gap-10 text-xs font-bold tracking-[0.2em] uppercase">
           <button 
             onClick={() => setActiveCategory('ALL')}
@@ -185,7 +169,6 @@ export default function App() {
         </nav>
       </header>
 
-      {/* --- TIER 3: Announcement Bar --- */}
       <div className="w-full bg-vanilla/50 py-3 border-y border-espresso/5 flex justify-center items-center text-xs tracking-wide text-espresso/80 uppercase">
         <span className="mx-4 cursor-pointer">‹</span>
         Express delivery available on all orders at checkout
@@ -194,11 +177,9 @@ export default function App() {
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
         
-        {/* --- TIER 4: FUNCTIONAL Filter & Sort Bar --- */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8 text-sm text-espresso/70 border-b border-espresso/10 pb-4">
           <div className="flex gap-6 items-center w-full sm:w-auto">
             <span className="font-medium text-espresso hidden sm:inline">Filter:</span>
-            
             <div className="relative">
               <select 
                 value={availabilityFilter} 
@@ -209,7 +190,6 @@ export default function App() {
                 <option value="IN_STOCK">In Stock Only</option>
               </select>
             </div>
-
             <div className="relative">
               <select 
                 value={priceFilter} 
@@ -222,7 +202,6 @@ export default function App() {
               </select>
             </div>
           </div>
-
           <div className="flex justify-between sm:justify-end gap-6 items-center w-full sm:w-auto">
             <div className="relative">
               <select 
@@ -240,19 +219,20 @@ export default function App() {
           </div>
         </div>
 
-        {/* Product Grid */}
+        {/* --- THE FIX: Masonry Layout Grid --- */}
         {processedProducts.length === 0 ? (
           <p className="text-center text-espresso/60 mt-20 italic">No products found for this category or filter.</p>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-16">
+          <div className="columns-1 sm:columns-2 lg:columns-3 gap-x-8">
             {processedProducts.map((product) => (
-              <ProductCard key={product.id} product={product} addToCart={addToCart} />
+              <div key={product.id} className="break-inside-avoid mb-16">
+                <ProductCard product={product} addToCart={addToCart} />
+              </div>
             ))}
           </div>
         )}
       </main>
 
-      {/* Sliding Cart Overlay */}
       {isCartOpen && (
         <div className="fixed inset-0 bg-espresso/20 backdrop-blur-sm z-50 flex justify-end">
           <div className="absolute inset-0" onClick={() => setIsCartOpen(false)}></div>
