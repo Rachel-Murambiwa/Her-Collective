@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-oatmilk: #F5F2E9;
+  --color-vanilla: #F3EAE3;
+  --color-blush: #E8D7D0;
+  --color-sage: #C1CAC0;
+  --color-espresso: #4A3B32;
+}
+
+body {
+  background-color: var(--color-oatmilk);
+  color: var(--color-espresso);
+  margin: 0;
+  padding: 0;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
