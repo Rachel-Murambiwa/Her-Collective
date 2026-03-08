@@ -116,6 +116,76 @@
       }
     ],
     "inStock": true
+  },
+  {
+    "id": "5",
+    "name": "Ruched-handle quilted sling bag",
+    "category": "Bags",
+    "price": 5.00,
+    "description": "A compact and stylish mini crossbody bag, perfect for carrying your essentials while on the go.",
+    "variants": [
+      {
+        "color": "Khakhi",
+        "image": "https://img.kwcdn.com/product/fancy/ee373751-b79a-4ba7-83ad-2ddaf99fa4e6.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+      },
+      {
+        "color": "Black",
+        "image": "https://img.kwcdn.com/product/fancy/ee438f5e-e7bb-4aad-a133-adf79f5cff7d.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+      },
+      {
+        "color": "White",
+        "image": "https://strgimgr.umico.az/img/product/280/1f67237e-4148-427b-8f63-4edef25c9c2d.jpeg"
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": "6",
+    "name": "Quilted Double Handle Dome Bag",
+    "category": "Bags",
+    "price": 5.00,
+    "description": "A quilted dome-shaped handbag with double handles, perfect for adding a touch of elegance to your outfit.",
+    "variants": [
+      {
+        "color": "Black",
+        "image": "https://img.ltwebstatic.com/images3_spmp/2025/03/20/61/1742455029b0e480ac29622d7abe4a890c68a2f611_thumbnail_405x552.jpg"
+      },
+      {
+        "color": "White",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/02/47/1751441858a3036f2f9079cbfdea9f157a5a89b997_thumbnail_405x552.jpg"
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": "7",
+    "name": "Cute Phone Cases and Charger Cases",
+    "category": "Phone Cases & Charger Cases",
+    "price": 10.00,
+    "description": "Cute phone cases and charger cases.",
+    "variants": [
+      {
+
+        "image": "https://img.kwcdn.com/product/open/7dc6d5b25f7d45f8b02361f8ff69c142-goods.jpeg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+        "models": [
+          {
+            "model": "iPhone 14 Pro Max"
+          },
+          {
+            "model": "iPhone 14 Pro"
+          },
+          {
+            "model": "iPhone 14 Plus"
+          },
+          {
+            "model": "iPhone 14"
+
+          }
+        ]
+
+      }
+    ],
+    "inStock": true
   }
 
 ]
