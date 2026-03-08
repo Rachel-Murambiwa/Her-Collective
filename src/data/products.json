@@ -1,28 +1,28 @@
 [
- {
+  {
     "id": "1",
-    "name": "Large Capacity Tote",
+    "name": "Cherry Print Shell Bag",
     "category": "Bags",
-    "price": 10.00,
+    "price": 5.00,
     "description": "A spacious, minimalist tote perfect for everyday essentials, travel, or class.",
     "variants": [
       {
         "color": "Black",
         "style": "bows and flowers",
         "colorHex": "#F5F2E9",
-        "image": "https://images.unsplash.com/photo-1597045566677-8cf032ed6634?q=80&w=600&auto=format&fit=crop"
+        "image": "https://img.joomcdn.net/22c2124f61e6aab5a566dad8450a1cc1cc05d297_original.jpeg"
       },
       {
         "color": "Pink",
         "style": "bows and flowers",
         "colorHex": "#4A3B32",
-        "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=600&auto=format&fit=crop"
+        "image": "https://img.joomcdn.net/e693f761bbc44dfe5033bf279d9e67e0a300e1be_original.jpeg"
       },
       {
         "color": "White",
         "style": "bows and flowers",
         "colorHex": "#C1CAC0",
-        "image": "https://images.unsplash.com/photo-1621510427926-d621b1912952?q=80&w=600&auto=format&fit=crop"
+        "image": "https://img.nihaojewelry.com/fit-in/800x800/filters:quality(80)/filters:format(webp)/product/2025/6/9/1931953807131021312/Cute-Cherry-Print-Baseball-Bag-New-Handbag-Women-s-High-End-Style-Shoulder-Bag-Commuter-Crossbody-Bag-4.jpg"
       }
     ],
     "sizes": [],
@@ -30,24 +30,92 @@
   },
   {
     "id": "2",
-    "name": "Water Bottles",
-    "category": "Essentials",
-    "price": 18.50,
-    "description": "Stay hydrated in style with our sleek, reusable water bottles, designed for both function and fashion.",
-    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=600&auto=format&fit=crop",
-    "colors": ["pink", "black"],
-    "styles": ["bows", "flowers"],
+    "name": "Crescent-shaped shoulder bag",
+    "category": "Bags",
+    "price": 5.00,
+    "description": "A crescent-shaped shoulder bag with a minimalist design, perfect for carrying your essentials in style.",
+    "variants": [
+      {
+        "color": "Hot Pink",
+        "image": "https://cdn.salla.sa/dPEwve/31974128-8a14-4e34-97de-1afcc2c25872-700.29239766082x1000-0bzQ560bgbsADVfKjOtNrgSqKMu5mIq17OZmLfId.png"
+      },
+      {
+        "color": "Blue",
+        "image": "https://cdn.salla.sa/dPEwve/35fd47b2-3cb0-444b-9473-29744c591c1c-719.11764705882x1000-NbLNR8t2pfbeuYssZgDySNEFhL6sC4Rs4ZaBwX5u.png"
+      },
+        {
+            "color": "Silver",
+            "image": "https://cdn.salla.sa/dPEwve/d30df50f-0131-484d-b79d-d49bf1454d3b-371.56593406593x500-usOXtFacelaqtz6DHwihJberd8vmi9EfozOrcdC3.png"
+        },
+        {
+            "color": "Black",
+            "image": "https://cdn.salla.sa/dPEwve/59ab18aa-ba2b-42f8-9444-01b30f8c90ce-728.32369942197x1000-Blm0LN5azvzf3oQN6PlzFbkmnK7eSyZbFmJAtPyx.png"
+        },
+        {
+            "color": "White + Butterflies",
+            "image": "https://cdn.salla.sa/dPEwve/39197a1e-f314-467e-9675-9619b430cc56-684.58274398868x1000-xz6ADogL2kIQwHIpDoKG5QFtwQFAf2dNIHIth6Yp.png"
+        },
+        {
+            "color": "Multicolor Prints",
+            "image": "https://cdn.salla.sa/dPEwve/cf3617df-d2b5-44dd-bca2-e49b76c4beb1-734.23423423423x1000-LRGW0yxXx9WlDurdjzLSUvTAz1SeLtl8sA7LnjX7.png"
+        },
+            {
+                "color": "Lilac",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbv7hhX-wGSsS3XagfsulXB-Gt2w_MHt_a4HXeMCGT3BLQbWop"
+            },
+            {
+                "color": "Brown Fur",
+                "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/15/e8/175790417881af32f86b40bdfeab342c000c1b1020_thumbnail_336x.jpg"
+            },
+            {
+                "color": "White Fur",
+                "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/15/9b/175790417443ee97453edf092e3504c849817d78fb_thumbnail_336x.jpg"
+            },
+            {
+                "color": "Black Fur",
+                "image": "https://img.ltwebstatic.com/images3_spmp/2024/10/02/82/17278491318b1e24dde9d6afa77a0133853094c84e_thumbnail_750x999.webp"
+            }
+
+    ],
     "inStock": true
   },
+
   {
     "id": "3",
-    "name": "Pearl & Gold Claw Clip Set",
-    "category": "Hair Accessories",
-    "price": 12.00,
-    "description": "Keep your hair effortlessly swept up with this duo of durable, aesthetic claw clips.",
-    "image": "https://images.unsplash.com/photo-1626290074693-8ce05f6e8105?q=80&w=600&auto=format&fit=crop",
-    "colors": ["Pearl/Gold"],
-    "sizes": [],
-    "inStock": false
+    "name": "Retro Faux Leather Flap Decor Underarm Shoulder Bag",
+    "category": "Bags",
+    "price": 5.00,
+    "description": "A retro-inspired faux leather shoulder bag with a flap decor, perfect for adding a touch of vintage charm to your outfit.",
+    "variants": [
+      {
+        "color": "Burgundy",
+        "image": "https://i.etsystatic.com/57687024/r/il/d38c7a/7777954973/il_fullxfull.7777954973_loe4.jpg"
+      }
+    ],
+    "inStock": true
+  },
+
+  {
+    "id": "4",
+    "name": "Fashion tote bag",
+    "category": "Bags",
+    "price": 6.00,
+    "description": "A fashionable tote bag with a minimalist design, perfect for carrying your essentials in style.",
+    "variants": [
+      {
+        "color": "Pink",
+        "image": "https://img.ltwebstatic.com/images3_spmp/2024/06/05/15/17175756607e6c72158f5979cb0683c11d07b55441.jpg"
+      },
+      {
+        "color": "Black",
+        "image": "https://img.ltwebstatic.com/images3_spmp/2024/09/13/bd/1726206374db2f089fa6b0d019d1422594009d5da8.jpg"
+      },
+      {
+        "color": "Grey",
+        "image": "https://i.pinimg.com/originals/70/c6/f9/70c6f947659cb0c9677b816c6bd1ed02.jpg"
+      }
+    ],
+    "inStock": true
   }
+
 ]
