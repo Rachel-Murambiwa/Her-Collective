@@ -68,7 +68,7 @@ export default function App() {
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, "_blank");
   }
 
-  const navLinks = ['BAGS', 'JEWELLERY', 'PHONE ACCESSORIES', 'HAIR ACCESSORIES'];
+  const navLinks = ['BAGS', 'JEWELLERY', 'ESSENTIALS','PHONE ACCESSORIES', 'HAIR ACCESSORIES'];
 
   return (
     <div className="min-h-screen pb-24 relative bg-oatmilk text-espresso font-sans">

@@ -126,7 +126,9 @@ export default function ProductCard({ product, addToCart }) {
           {/* REGULAR SIZES RENDER */}
           {product.sizes?.length > 0 && (
             <div className="space-y-2">
-              <p className="text-xs font-bold text-espresso/70 uppercase tracking-wider pl-1">Size</p>
+              <p className="text-xs font-bold text-espresso/70 uppercase tracking-wider pl-1">
+                    {product.sizeLabel || 'Size'}
+                </p>
               <div className="flex flex-wrap gap-2">
                 {product.sizes.map((size, idx) => (
                   <button
