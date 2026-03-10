@@ -73,10 +73,11 @@ export default function App() {
   return (
     <div className="min-h-screen pb-24 relative bg-oatmilk text-espresso font-sans">
       
-      <header className="pt-6 pb-4 px-6 sticky top-0 bg-oatmilk/95 backdrop-blur-md z-40">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+      {/* 1. Header padding adjusted for mobile */}
+      <header className="pt-6 pb-2 sm:pb-4 px-4 sm:px-6 sticky top-0 bg-oatmilk/95 backdrop-blur-md z-40 shadow-sm sm:shadow-none">
+        <div className="max-w-7xl mx-auto flex justify-between items-center relative">
           
-          <div className="w-1/3 flex items-center gap-4">
+          <div className="w-1/4 sm:w-1/3 flex items-center gap-4">
             <button onClick={() => setIsSearchOpen(!isSearchOpen)} className="hover:opacity-70 transition-opacity">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="11" cy="11" r="8"></circle>
@@ -90,24 +91,24 @@ export default function App() {
                 placeholder="Search..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-48 bg-transparent border-b border-espresso/30 focus:border-espresso outline-none pb-1 text-sm transition-all"
+                className="absolute left-10 sm:left-14 top-1/2 -translate-y-1/2 w-40 sm:w-48 bg-oatmilk border-b border-espresso/30 focus:border-espresso outline-none pb-1 text-sm transition-all z-50"
               />
             )}
           </div>
 
-          <div className="w-1/3 text-center">
-            <h1 className="text-4xl font-serif tracking-tight cursor-pointer" onClick={() => setActiveCategory('ALL')}>
+          <div className="w-2/4 sm:w-1/3 text-center">
+            {/* 2. Logo text size slightly smaller on mobile */}
+            <h1 className="text-3xl sm:text-4xl font-serif tracking-tight cursor-pointer" onClick={() => setActiveCategory('ALL')}>
               HerCollective
             </h1>
           </div>
 
-          <div className="w-1/3 flex justify-end items-center gap-6">
+          <div className="w-1/4 sm:w-1/3 flex justify-end items-center gap-4 sm:gap-6">
             <div className="relative">
               <button 
                 onClick={() => setIsCommunityOpen(!isCommunityOpen)} 
                 className="hover:opacity-70 transition-opacity flex items-center"
               >
-                {/* NEW MINIMALIST ACCOUNT ICON */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
                   <circle cx="12" cy="7" r="4"></circle>
@@ -117,7 +118,7 @@ export default function App() {
               {isCommunityOpen && (
                 <>
                   <div className="fixed inset-0 z-40" onClick={() => setIsCommunityOpen(false)}></div>
-                  <div className="absolute right-0 mt-4 w-72 bg-vanilla border border-espresso/10 shadow-2xl rounded-2xl p-6 z-50">
+                  <div className="absolute right-0 mt-4 w-64 sm:w-72 bg-vanilla border border-espresso/10 shadow-2xl rounded-2xl p-6 z-50">
                     <h3 className="font-serif text-xl mb-2 text-espresso">The Girlies Circle 🤍</h3>
                     <p className="text-sm text-espresso/70 leading-relaxed mb-5">
                       Want to join the girlies circle and get early updates on restocks, secret sales, and promos?
@@ -136,7 +137,6 @@ export default function App() {
             </div>
 
             <button onClick={() => setIsCartOpen(true)} className="hover:opacity-70 transition-opacity relative">
-              {/* NEW MINIMALIST BAG ICON */}
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M8 7V5a4 4 0 0 1 8 0v2"></path>
                 <path d="M4 7l-1 14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2l-1-14H4z"></path>
@@ -150,10 +150,11 @@ export default function App() {
           </div>
         </div>
 
-        <nav className="max-w-7xl mx-auto mt-8 hidden md:flex justify-center gap-10 text-xs font-bold tracking-[0.2em] uppercase">
+        {/* 3. MOBILE MENU FIX: Horizontally scrollable menu instead of 'hidden' */}
+        <nav className="max-w-7xl mx-auto mt-6 flex overflow-x-auto whitespace-nowrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] sm:justify-center gap-6 sm:gap-10 text-[10px] sm:text-xs font-bold tracking-[0.2em] uppercase px-1 sm:px-0 pb-2">
           <button 
             onClick={() => setActiveCategory('ALL')}
-            className={`hover:text-espresso transition-colors ${activeCategory === 'ALL' ? 'text-espresso border-b border-espresso pb-1' : 'text-espresso/40'}`}
+            className={`hover:text-espresso transition-colors flex-shrink-0 ${activeCategory === 'ALL' ? 'text-espresso border-b border-espresso pb-1' : 'text-espresso/40'}`}
           >
             ALL PRODUCTS
           </button>
@@ -161,7 +162,7 @@ export default function App() {
             <button 
               key={link}
               onClick={() => setActiveCategory(link)}
-              className={`hover:text-espresso transition-colors ${activeCategory === link ? 'text-espresso border-b border-espresso pb-1' : 'text-espresso/40'}`}
+              className={`hover:text-espresso transition-colors flex-shrink-0 ${activeCategory === link ? 'text-espresso border-b border-espresso pb-1' : 'text-espresso/40'}`}
             >
               {link}
             </button>
@@ -169,17 +170,19 @@ export default function App() {
         </nav>
       </header>
 
-      <div className="w-full bg-vanilla/50 py-3 border-y border-espresso/5 flex justify-center items-center text-xs tracking-wide text-espresso/80 uppercase">
-        <span className="mx-4 cursor-pointer">‹</span>
+      {/* 4. ANNOUNCEMENT BAR FIX: Smaller text and hidden arrows on mobile */}
+      <div className="w-full bg-vanilla/50 py-3 border-y border-espresso/5 flex justify-center items-center text-[10px] sm:text-xs tracking-wide text-espresso/80 uppercase px-2 text-center">
+        <span className="mx-2 sm:mx-4 cursor-pointer hidden sm:inline">‹</span>
         Express delivery available on all orders at checkout
-        <span className="mx-4 cursor-pointer">›</span>
+        <span className="mx-2 sm:mx-4 cursor-pointer hidden sm:inline">›</span>
       </div>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 sm:mt-10">
         
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8 text-sm text-espresso/70 border-b border-espresso/10 pb-4">
-          <div className="flex gap-6 items-center w-full sm:w-auto">
-            <span className="font-medium text-espresso hidden sm:inline">Filter:</span>
+        {/* 5. FILTER WRAP FIX: Allows filters to nicely jump to the next line on tiny screens */}
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8 text-sm text-espresso/70 border-b border-espresso/10 pb-4">
+          <div className="flex flex-wrap gap-x-6 gap-y-2 items-center w-full md:w-auto">
+            <span className="font-medium text-espresso hidden md:inline">Filter:</span>
             <div className="relative">
               <select 
                 value={availabilityFilter} 
@@ -202,7 +205,7 @@ export default function App() {
               </select>
             </div>
           </div>
-          <div className="flex justify-between sm:justify-end gap-6 items-center w-full sm:w-auto">
+          <div className="flex flex-wrap justify-between md:justify-end gap-x-6 gap-y-2 items-center w-full md:w-auto">
             <div className="relative">
               <select 
                 value={sortBy} 
@@ -219,7 +222,6 @@ export default function App() {
           </div>
         </div>
 
-        {/* --- THE FIX: Masonry Layout Grid --- */}
         {processedProducts.length === 0 ? (
           <p className="text-center text-espresso/60 mt-20 italic">No products found for this category or filter.</p>
         ) : (
