@@ -24,8 +24,8 @@ export default function App() {
                             (activeCategory === 'BAGS' && product.category.toLowerCase().includes('tote'));
     const matchesAvailability = availabilityFilter === 'ALL' || (availabilityFilter === 'IN_STOCK' && product.inStock);
     const matchesPrice = priceFilter === 'ALL' || 
-                         (priceFilter === 'UNDER_20' && product.price < 20) ||
-                         (priceFilter === 'OVER_20' && product.price >= 20);
+                         (priceFilter === 'UNDER_5' && product.price < 5) ||
+                         (priceFilter === 'OVER_5' && product.price >= 5);
     return matchesSearch && matchesCategory && matchesAvailability && matchesPrice;
   })
 
@@ -68,7 +68,7 @@ export default function App() {
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, "_blank");
   }
 
-  const navLinks = ['BAGS', 'FASHION ACCESSORIES','ESSENTIALS','PHONE ACCESSORIES', 'HAIR ACCESSORIES'];
+  const navLinks = ['BAGS', 'FASHION ACCESSORIES','ESSENTIALS','PHONE ACCESSORIES', 'HAIR ACCESSORIES', 'NIGHTWEAR'];
 
   return (
     <div className="min-h-screen pb-24 relative bg-oatmilk text-espresso font-sans">

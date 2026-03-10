@@ -777,6 +777,164 @@
       }
     ],
       "inStock": true
+  },
+  {
+    "id": 36,
+    "name": "1 Fashion Ring",
+    "category": "Fashion Accessories",
+    "price": 0.25,
+    "description": "A fashionable ring for a chic look.",
+    "variants":[
+      {
+        "color": "Silver",
+        "image": "https://img.kwcdn.com/product/fancy/f834fc7c-b868-46f0-bcdd-ac6b9247cc8e.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+      },
+      {
+        "color": "Gold",
+        "image": "https://img.kwcdn.com/product/fancy/52aa8114-23ae-4dc6-a3f0-2639fceb56a3.jpg"
+
   }
+],
+ "inStock": true
+   },
+   {
+    "id":37,
+    "name": "5 Piece/Boho-Pineapple Pearl Butterfly Anklet Set",
+    "category": "Fashion Accessories",
+    "price": 3.00,
+    "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/05/06/b0/174650671072fe1561479eaf57c23dfc471d4b0008_thumbnail_405x552.webp",
+    "description": "A set of 5 boho-style anklets featuring pineapple, pearl, and butterfly designs for a chic look.",
+    "inStock": true
+   },
+   {
+    "id":38,
+    "name": "JESUS Pendant Necklace Set For Women",
+    "category": "Fashion Accessories",
+    "price": 1.50,
+    "description": "A set of 5 boho-style anklets featuring pineapple, pearl, and butterfly designs for a chic look.",
+    "variants":[
+      {
+        "color": "Silver",
+        "image": "https://i.ebayimg.com/images/g/W4QAAOSw9xxjhBE8/s-l1200.jpg"
+      },
+      {
+        "color": "Gold",
+        "image": "https://global2019-static-cdn.kikuu.com/upload-productImg-1610156201824.jpeg?x-oss-process=style/p85"
+      }
+    ],
+    "inStock": true
+   },
+   {
+    "id":39,
+    "name": "1 pair earrings",
+    "category": "Fashion Accessories",
+    "price": 0.50,
+    "image": "https://img.kwcdn.com/product/fancy/d8debbfd-f1d5-4696-93f0-db312fbdc74d.jpg",
+    "description": "A pair of fashionable earrings for a chic look.",
+    "inStock": true
+   },
+   {
+    "id":40,
+    "name": "Cute Cat Bowknot Strap Camisole Top Women Sleepwear",
+    "category": "Nightwear",
+    "price": 5.00,
+    "description": "A fashionable ring for a chic look.",
+    "variants":[
+      {
+        "color":"Pink",
+        "image": "https://img.kwcdn.com/product/fancy/717fa85a-9ea3-46a6-8b34-d10440e4783e.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+      },
+      {
+        "color":"Red",
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/07/04/1d/1751611006b1dce26c47a62e4599eddb033d0a0874_thumbnail_750x999.webp"
+      }
+    ],
+    "inStock": true
+   },
+   {
+    "id":41,
+    "name": "Butterfly Print Contrast Binding Lettuce Trim Cami Pajama Nightdress",
+    "category": "Nightwear",
+    "price": 5.00,
+    "description": "A comfortable and stylish nightdress featuring a butterfly print, contrast binding, and lettuce trim for a chic look.",
+    "variants":[
+      {
+        "color":"Pink",
+        "image": "https://i.ebayimg.com/images/g/QOoAAOSwLrZmRSLD/s-l1200.jpg"
+      },
+      {
+        "color":"White",
+        "image": "https://img.ltwebstatic.com/images3_pi/2023/08/09/ef/169157280152fc8186ab84a615a060b8d15405612b_thumbnail_405x552.jpg"
+      },
+      {
+        "color":"Blue",
+        "image": "https://img.ltwebstatic.com/images3_pi/2023/08/09/86/16915728078b3c33ff6003d9d0faa06c10ca37a05f_thumbnail_405x552.jpg"
+      },
+      {
+        "color":"Rose Red",
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/08/01/1f/1754011912d3ba3ea8d7c5d21ef0648e8b3332747c_thumbnail_405x552.jpg"
+      },
+      {
+        "color":"Cream",
+        "image": "https://img.ltwebstatic.com/images3_pi/2023/08/18/ef/16923222259e205a5701ed700fa741835cc3569f0f_thumbnail_750x999.webp"
+      }
+    ],
+    "inStock": true
+   },
+   {
+    "id":42,
+    "name": "SilkySpell Plunging Neck Cami Dress, Camisole Top, Shorts, And Robe Sleepwear Set",
+    "category": "Nightwear",
+    "price": 15.00,
+    "description": "A luxurious sleepwear set featuring a plunging neck cami dress, camisole top, shorts, and robe for a chic and comfortable look.",
+    "variants":[
+      {
+        "color":"Champagne",
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/09/30/48/1759201564d24bf78874b465fd6b4c595d0fc44fbc_thumbnail_405x552.jpg"
+      },
+      {
+        "color":"Dusty Pink",
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/08/04/bb/17542744056753dd8d5eddbc49e3c82e888fa8494b_thumbnail_405x552.webp"
+      }
+    ],
+    "inStock": true
+   },
+   {
+    "id":43,
+    "name": "Pink Bow Love Pattern Versatile Wallet",
+    "category": "Fashion Accessories",
+    "price": 5.00,
+    "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/03/81/174893138265f76e689dd11f60d93a54f9f0d4984a_thumbnail_405x552.jpg",
+    "description": "A comfortable and stylish wallet featuring a pink bow love pattern for a chic look.",
+    "inStock": true
+   },
+   {
+    "id":44,
+    "name": "Women Wallets Short Pu Leather Purses",
+    "category": "Fashion Accessories",
+    "price": 5.00,
+    "description": "A comfortable and stylish wallet featuring a bow love pattern for a chic look.",
+      "variants":[
+        {
+          "color":"Pink",
+          "image": "https://shopcube.mx/cdn/shop/files/9CE0F628-BF52-438B-B994-89817CF1F192.jpg?v=1769535574&width=3840"
+        },
+        {
+          "color":"Purple",
+          "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/29/9e/17696751467e5ae6be8b41b7a0da9180d51fb82411_thumbnail_750x999.webp"
+        }
+      ],
+    "inStock": true
+   },
+   {
+    "id":45,
+    "name": "1pc Cartoon Digital Storage Bag With Bingo Print",
+    "category": "Fashion Accessories",
+    "price": 3.00,
+    "image": "https://img.kwcdn.com/product/fancy/6e04d232-4780-4e35-8c78-ce20eb608956.jpg",
+    "description": "A comfortable and stylish storage bag featuring a cartoon digital design for a chic look.",
+    "inStock": true
+   }
+
   
 ]
