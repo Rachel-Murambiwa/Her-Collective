@@ -68,7 +68,7 @@ export default function App() {
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, "_blank");
   }
 
-  const navLinks = ['BAGS', 'JEWELLERY', 'ESSENTIALS','PHONE ACCESSORIES', 'HAIR ACCESSORIES'];
+  const navLinks = ['BAGS', 'FASHION ACCESSORIES','ESSENTIALS','PHONE ACCESSORIES', 'HAIR ACCESSORIES'];
 
   return (
     <div className="min-h-screen pb-24 relative bg-oatmilk text-espresso font-sans">
@@ -197,8 +197,8 @@ export default function App() {
                 className="appearance-none bg-transparent hover:text-espresso cursor-pointer outline-none font-medium"
               >
                 <option value="ALL">Price ⌄</option>
-                <option value="UNDER_20">Under $20</option>
-                <option value="OVER_20">$20 & Above</option>
+                <option value="UNDER_5">Under $5</option>
+                <option value="OVER_5">$5 & Above</option>
               </select>
             </div>
           </div>

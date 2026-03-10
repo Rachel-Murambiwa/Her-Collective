@@ -481,5 +481,302 @@
       }
     ],
     "inStock": true
+  },
+  {
+    "id": "21",
+    "name": "Headband and Scrunchie Set",
+    "category": "Hair Accessories",
+    "price": 1.00,
+    "image": "https://img.kwcdn.com/product/fancy/d74b6b98-ee44-47e2-90a2-1a3abafa443c.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+    "description": "A set of headbands and scrunchies for a chic and elegant look.",
+    "inStock": true
+  },
+  {
+    "id": "22",
+    "name": "Mini Cute Candy Color Kids Backpack",
+    "category": "Bags",
+    "price": 10.00,
+    "description": "A mini backpack in cute candy colors, perfect for kids to carry their essentials in style.",
+    "variants": [
+      {
+        "color": "Pink",
+        "image": "https://ae01.alicdn.com/kf/Sb66f46acd66b45dbafaf2e0a16bec0bbx.jpg"
+      },
+      {
+        "color": "Multicolor",
+        "image": "https://img.kwcdn.com/product/fancy/ef7f24bd-d463-4e60-9f9f-527769b84272.jpg"
+      },
+      {
+        "color": "Purple",
+        "image": "https://ae01.alicdn.com/kf/S54dbac49ce814d57aec14b0fbd6e2e379.jpeg"
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": "23",
+    "name": "Adorable Bow Makeup Bag With Wrist Strap",
+    "category": "Bags",
+    "price": 3.00,
+    "description": "An adorable makeup bag featuring bow and heart designs, complete with a convenient wrist strap for easy carrying.",
+    "variants": [
+      {
+        "color": "White + Black bows",
+        "image": "https://m.media-amazon.com/images/I/61ajt25IkML.jpg"
+      },
+      {
+        "color": "White + Pink bows",
+        "image": "https://www.stickybestie.com/cdn/shop/files/unnamed_51.png?v=1768051956&width=1946"
+      },
+      {
+        "color": "Black + Pink bows",
+        "image": "https://www.stickybestie.com/cdn/shop/files/unnamed_52.png?v=1768051956&width=1946"
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 24,
+    "name": "Retro Small Round Fashionable Cateye Fashion Glasses",
+    "category": "Fashion Accessories",
+    "price": 5.00,
+    "image": "https://img.kwcdn.com/product/fancy/c5516a0a-446f-40c3-82f8-2201d614a4fd.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+    "description": "Elegant and fashionable cateye glasses for a chic look.",
+    "inStock": true
+  },
+  {
+    "id": 25,
+    "name": "Fashionable Y2K Black Glasses",
+    "category": "Fashion Accessories",
+    "price": 4.00,
+    "image": "https://image.goxip.com/SHb8TNZGgj1DBb4QilRGapoUNy0=/fit-in/500x500/filters:format(jpg):quality(80):fill(white)/https:%2F%2Fcdn-images.farfetch-contents.com%2F23%2F30%2F05%2F41%2F23300541_53495013_1000.jpg",
+    "description": "Fashionable Y2K black glasses for a chic look.",
+    "inStock": true
+  },
+  {
+   "id": "26",
+    "name": "2pcs Nylon Zipper Closure Fashionable Contrast Color Backpack",
+    "category": "Bags",
+    "price": 15.00,
+    "description": "A set of a backpack and a pencil case, both featuring a fashionable contrast color design and a nylon zipper closure for secure storage.",
+    "variants": [
+      {
+        "color": "Floral",
+        "image": "https://s.alicdn.com/@sc04/kf/H4e56d40652e34328bf5d41eb877082d2O.jpg"
+      },
+      {
+        "color": "Hearts",
+        "image": "https://img.kwcdn.com/product/open/2023-10-25/1698239342751-783019f4268746e68ef098a91478ed99-goods.jpeg"
+      },
+      {
+        "color": "Butterflies",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/22/76/1753152518446f4a4c1956bbbab3325cae70d55c62_thumbnail_750x999.webp"
+      },
+      {
+        "color": "Dinosaurs",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/22/32/17531525243db70aa4d2e78c393cb0421a9bc1eb79_thumbnail_405x552.jpg"
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 27,
+    "name": "6pcs Women's Butterfly Jewelry Set",
+    "category": "Fashion Accessories",
+    "price": 5.00,
+    "description": "A set of fashionable butterfly jewelry pieces for women.",
+    "variants":[
+      {
+        "color":"Black",
+        "image" : "https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/s/08/635ac118-6054-4830-9ba2-400597dda278.jpg"
+      },
+      {
+        "color":"White",
+        "image" : "https://img.kwcdn.com/product/fancy/12edad1b-e725-4ab7-b39a-e74ae981d8ef.jpg"
+      }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 28,
+    "name": "6pcs Stylish Clover Pendant Jewelry Set",
+    "category": "Fashion Accessories",
+    "price": 5.00,
+    "description": "A set of stylish clover pendant jewelry pieces for a chic look.",
+    "variants": [
+      {
+        "color": "Black 1",
+        "image": "https://www.fashionglamourjewellery.com/cdn/shop/files/IMG-6413_grande.jpg?v=1730587919"
+      },
+      {
+        "color": "Black 2",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/08/26/6e/17561765670145f4c861b4d8bc7d51dd53e64cc114_thumbnail_405x552_thumbnail_720x.jpg"
+      },
+      {
+        "color": "Pink",
+        "image": "https://www.fashionglamourjewellery.com/cdn/shop/files/IMG-6423_300x300.jpg?v=1730587601"
+      },
+      {
+        "color": "Purple",
+        "image": "https://img.ltwebstatic.com/images3_spmp/2024/03/21/48/171098481676ab2ec655d1fe72b04e2654bf28ebcd_thumbnail_750x999.webp"
+      },
+      {
+        "color": "White 1",
+        "image": "https://www.pakstyle.pk/cdn/shop/files/p18154-5-piece-leaf-clover-design-jewelry-set.jpg?v=1759484987"
+      },
+       {
+        "color": "White 2",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/16/83/1758009189b31dd55b7bce92fbe9bb0b622a16b9a4_thumbnail_336x.jpg"
+      },
+      {
+        "color": "Green",
+        "image": "https://img.kwcdn.com/product/fancy/14c53b0d-8727-4825-9bbb-f34b5aa76825.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+      },
+     {
+        "color": "Brown",
+        "image": "https://img.ltwebstatic.com/images3_spmp/2024/03/21/30/1710984782e93492514e70d20911044bf6cd490f51_thumbnail_750x999.webp"
+     }
+    ],
+    "inStock": true
+  },
+  {
+    "id": 29,
+    "name": "6pcs Vintage Gold Plated Carved 5-Petal Flower Pendant Jewelry Set",
+    "category": "Fashion Accessories",
+    "price": 6.00,
+    "image": "https://gh.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/65/9195003/3.jpg?8416",
+    "description": "A set of vintage-inspired gold plated jewelry pieces featuring carved 5-petal flower pendants for a chic and elegant look.",
+      "inStock": true
+
+  },
+  {
+    "id": 30,
+    "name": "3pcs Women's Cherry Fruit Jewelry Set",
+    "category": "Fashion Accessories",
+    "price": 3.00,
+    "image": "https://img.kwcdn.com/product/fancy/5df14c6c-eea0-49dd-aea2-2e278447e7aa.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+    "description": "A set of stylish cherry fruit jewelry pieces for a chic look.",
+      "inStock": true
+  },
+  {
+    "id": 31,
+    "name": "Stainless Steel Earrings and Necklace Set",
+    "category": "Fashion Accessories",
+    "price": 1.00,
+    "image": "https://img.kwcdn.com/product/fancy/27e1dceb-ae3f-4b5d-ac91-abbc2e898cb5.jpg",
+    "description": "A set of stainless steel earrings and necklace for a chic look.",
+      "inStock": true
+
+  },
+  {
+    "id": 32,
+    "name": "3pcs Luxury Simple Personalized Rhinestone Butterfly & Heart Design Stacking Bangle Bracelet Set For Women",
+    "category": "Fashion Accessories",
+    "price": 3.00,
+    "description": "A set of luxury simple personalized rhinestone bracelets featuring butterfly and heart designs for a chic look.",
+    "variants":[
+      {
+        "color": "Silver",
+        "image": "https://img.kwcdn.com/product/fancy/3d0252dc-3688-4d90-aada-ed3577a09dbb.jpg"
+      },
+      {
+        "color": "Gold",
+        "image": "https://gh.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/80/3594003/1.jpg?4583"
+      }
+    ],
+      "inStock": true
+
+  },
+  {
+    "id": 33,
+    "name": "4pcs Bohemian Style Multilayered Gem Butterfly Pendant Asymmetrical Beaded Bracelet Set",
+    "category": "Fashion Accessories",
+    "price": 3.50,
+    "description": "A set of bohemian style multilayered bracelets featuring gem butterfly pendants and asymmetrical beaded designs for a chic look.",
+    "variants":[
+      {
+        "color": "Black",
+        "image": "https://ae01.alicdn.com/kf/S45d715fc7d1c4e74b907143de1aca4bcL.jpg"
+      },
+      {
+        "color": "White",
+        "image": "https://m.media-amazon.com/images/I/71bhxEmD0YL._AC_SL1340_.jpg"
+      },
+      {
+        "color": "Pink",
+        "image": "https://pictures-ghana.jijistatic.net/55578137_NjIwLTU0NS1iMzNlNTIwMzY0.webp"
+      },
+      {
+        "color": "Purple",
+        "image": "https://i5.walmartimages.com/asr/c0ecc898-b6f2-4a82-b431-e9215290f5d8.3405d161ffe9bae4e49d2f9a68b5eb4c.jpeg"
+      },
+      {
+        "color": "Red",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/29/88/1745911862b8e2d08e5b17f733d44e24400420282d_thumbnail_405x552.jpg"
+      },
+      {
+        "color": "Turquoise Blue",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/19/fb/175031859365f06253ca55fcffbba36e73d05dc51e_thumbnail_405x552.jpg"
+      },
+      {
+        "color": "Light Blue",
+        "image": "https://img.ltwebstatic.com/images3_spmp/2023/05/27/1685170737f5af85c28432a52dc4d5e1ba22bdda95_square_thumbnail_750x999.webp"
+      },
+      {
+        "color": "Lake Blue",
+        "image": "https://img.ltwebstatic.com/images3_spmp/2023/08/18/ef/1692340199f537b0cf954b54498a631877dae61885_thumbnail_750x999.webp"
+      },
+      {
+        "color": "Green",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/29/42/174591186246315b4c2a439a737b976aa2d8adae07_thumbnail_405x552.jpg"
+      },
+      {
+        "color": "Brown",
+        "image": "https://i5.walmartimages.com/asr/09355cac-1a27-410b-ba37-859fb789335a.c3deb95e94bacf4e50b8c70707e550c4.jpeg"
+      }
+
+    ],
+      "inStock": true 
+  },
+  {
+    "id": 34,
+    "name": "5pcs Fashionable, Simple, Delicate, Elegant Butterfly, Heart, Flower, Tulip, Water Droplet Shaped Rhinestone Encrusted, Sparkling 8-Infinity Sign Hook Bracelet And Chain Bracelet Set",
+    "category": "Fashion Accessories",
+    "price": 5.00,
+    "description": "A set of fashionable, simple, delicate, elegant bracelets featuring butterfly, heart, flower, tulip, water droplet shaped rhinestone encrusted designs for a chic look.",
+    "variants":[
+      {
+        "color": "Silver",
+        "image": "https://ae01.alicdn.com/kf/S45d14ef6a38d4b5da9d4c6b45243889dn.jpg"
+      },
+      {
+        "color": "Gold",
+        "image": "https://s.alicdn.com/@sc04/kf/Hd43c2a6c67f2461891d02667bf5d01c7r/Go-Party-Fashion-5pcs-Set-Diamond-Tulip-Butterfly-Bracelet-Set-Metal-Alloy-Crystal-Tennis-Chain-Heart-Cuff-Bracelets-Bangles.jpg"
+      }
+    ],
+      "inStock": true
+  },
+  {
+    "id": 35,
+    "name": "1 pair of earrings",
+    "category": "Fashion Accessories",
+    "price": 0.50,
+    "description": "A pair of fashionable earrings for a chic look.",
+    "variants":[
+      {
+        "color": "Silver",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/10/12/a0/1760243690083137cbcd4ce63deeb7ef7e40285f18_square_thumbnail_405x552.jpg"
+      },
+      {
+        "color": "Gold 1",
+        "image": "https://s.alicdn.com/@sc04/kf/H5fb000d6b9414f2894cfbc67a9248997P/HL-Newly-Released-10-Pairs-of-Irregular-CCB-Gold-Plated-Hoop-Earrings-for-Women-Fashion-Accessory.jpg"
+      },
+      {
+        "color": "Gold 2",
+        "image": "https://img.kwcdn.com/product/fancy/ee431d01-2b0b-4901-9321-9ad81f3aa057.jpg"
+      }
+    ],
+      "inStock": true
   }
+  
 ]
