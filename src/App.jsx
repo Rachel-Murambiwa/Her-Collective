@@ -56,7 +56,7 @@ export default function App() {
 
   const handleWhatsAppCheckout = () => {
     if (cart.length === 0) return;
-    const phoneNumber = "233YOURNUMBERHERE"; 
+    const phoneNumber = "263719096252"; 
     let message = "Hi HerCollective! 🤍 I would like to place an order:\n\n";
     cart.forEach((item) => {
       message += `▪️ ${item.quantity}x ${item.name}\n`;
