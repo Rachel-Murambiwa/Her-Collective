@@ -934,6 +934,94 @@
     "image": "https://img.kwcdn.com/product/fancy/6e04d232-4780-4e35-8c78-ce20eb608956.jpg",
     "description": "A comfortable and stylish storage bag featuring a cartoon digital design for a chic look.",
     "inStock": true
+   },
+   {
+    "id":46,
+    "name": "1pc Minimalist Breathable Portable Moisture-Proof Foldable Laundry Basket",
+    "category": "Room Essentials",
+    "price": 6.00,
+    "variants":[
+      {
+        "color": "Pink",
+        "image": "https://img.kwcdn.com/product/fancy/8e479332-918b-49f7-a744-de07d75d842c.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+      },
+      {
+        "color": "Blue",
+        "image": "https://img.kwcdn.com/product/fancy/eca3330c-4a88-402f-98cf-997d5fc987bc.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+      },
+      {
+        "color": "Black",
+        "image": "https://images-cdn.ubuy.co.in/66aa4b4790b4826988195e6d-2-laundry-baskets-pop-up-laundry.jpg"
+      }
+    ],
+    "description": "A minimalist, breathable, portable, moisture-proof, foldable laundry basket for convenient storage and organization.",
+     "inStock": true
+   },
+   {
+    "id":47,
+    "name": "Large Capacity Waterproof Foldable Laundry Basket",
+    "category": "Room Essentials",
+    "price": 6.00,
+    "description": "A comfortable and stylish storage bag featuring a cartoon digital design for a chic look.",
+    "inStock": true,
+    "variants": [
+      {
+        "color": "Red Grid",
+        "image": "https://i5.walmartimages.com/asr/e3f4fac3-7a0e-4b3a-ae9a-8f2f272dca8c.0e7e985599a4cfb7ece5c5132be2257a.jpeg"
+      },
+      {
+        "color": "Yellow Grid",
+        "image": "https://img.kwcdn.com/product/fancy/84e3564a-744f-4fc3-9ab5-240a10605f52.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+      },
+      {
+        "color": "Green Grid",
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/27/49/17695076946b0db7faf44f354cc491262d163d7367_square_thumbnail_750x999.webp"
+
+    }
+  ]
+   },
+   {
+    "id":48,
+    "name": "1pc Foldable Linen Storage Basket",
+    "category": "Room Essentials",
+    "price": 3.00,
+    "description": "A foldable storage box with a lid for convenient storage and organization.",
+    "image": "https://m.media-amazon.com/images/I/617W1DwibZS._AC_UF894,1000_QL80_.jpg",
+     "inStock": true
+   },
+   {
+    "id":49,
+    "name": "Cartoon Character Folding Storage Box",
+    "category": "Room Essentials",
+    "price": 3.00,
+    "description": "A folding storage box with a cartoon character design for convenient storage and organization.",
+    "variants": [
+      {
+        "color": "Batman",
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/10/16/15/17606161024643e240aacb34630471224130e036cb_thumbnail_405x552.webp"
+      },
+      {
+        "color": "Best Friends",
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/09/30/7f/1759223421add86b25b0bb8faa6418149dceaa49f2_thumbnail_750x999.webp"
+      },
+      {
+        "color": "Tom & Jerry",
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/12/12/cc/176553292924294f3175f2b34ce530d865934c918f_thumbnail_405x552.jpg"
+      },
+      {
+        "color": "The Powerpuff Girls",
+        "image": "https://assets.mercari-shops-static.com/-/large/plain/2JJ9H6VhFJzjEAc9RWv22x.png@jpg"
+      },
+      {
+        "color": "Scooby Doo",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT_PaChZc6gX-FhWVQxsYmQby6n7k7hvcZiXtt2xML-Tbwfyt_z"
+      },
+      {
+        "color": "SpongeBob SquarePants",
+        "image": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00693026076311L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+      }
+    ],
+     "inStock": true
    }
 
   
