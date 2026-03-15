@@ -1,11 +1,20 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import productsData from './data/products.json'
 import ProductCard from './components/ProductCard'
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState('ALL')
-  const [cart, setCart] = useState([])
+  // 1. Check the browser's memory for an old cart before starting
+  const [cart, setCart] = useState(() => {
+    const savedCart = localStorage.getItem('herCollectiveCart')
+    return savedCart ? JSON.parse(savedCart) : []
+  })
+
+  // 2. Every time the 'cart' changes, secretly save it to the browser's memory
+  useEffect(() => {
+    localStorage.setItem('herCollectiveCart', JSON.stringify(cart))
+  }, [cart])
   const [isCartOpen, setIsCartOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [isCommunityOpen, setIsCommunityOpen] = useState(false)
