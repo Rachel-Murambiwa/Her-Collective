@@ -5,6 +5,7 @@ import ProductCard from './components/ProductCard'
 export default function App() {
   const [searchQuery, setSearchQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState('ALL')
+  
   // 1. Check the browser's memory for an old cart before starting
   const [cart, setCart] = useState(() => {
     const savedCart = localStorage.getItem('herCollectiveCart')
@@ -15,9 +16,13 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem('herCollectiveCart', JSON.stringify(cart))
   }, [cart])
+  
   const [isCartOpen, setIsCartOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [isCommunityOpen, setIsCommunityOpen] = useState(false)
+  
+  // NEW: State to control the popup notification
+  const [toastMessage, setToastMessage] = useState(null)
 
   const [sortBy, setSortBy] = useState('A-Z')
   const [priceFilter, setPriceFilter] = useState('ALL')
@@ -46,6 +51,7 @@ export default function App() {
     return 0;
   });
 
+  // UPDATED: Now triggers a toast instead of opening the cart
   const addToCart = (product, color, size) => {
     setCart(prevCart => {
       const existingItem = prevCart.find(item => item.id === product.id && item.color === color && item.size === size)
@@ -54,7 +60,12 @@ export default function App() {
       }
       return [...prevCart, { ...product, color, size, quantity: 1 }]
     })
-    setIsCartOpen(true)
+    
+    // Trigger the notification pill
+    setToastMessage(`${product.name} added to cart! 🤍`)
+    setTimeout(() => {
+      setToastMessage(null)
+    }, 3000)
   }
 
   const removeFromCart = (productId, color, size) => {
@@ -284,6 +295,17 @@ export default function App() {
           </div>
         </div>
       )}
+
+      {/* NEW: Sleek Toast Notification */}
+      {toastMessage && (
+        <div className="fixed bottom-10 left-1/2 -translate-x-1/2 bg-espresso text-oatmilk px-6 py-3 rounded-full shadow-2xl z-[60] text-xs sm:text-sm font-medium tracking-wide transition-all duration-300 flex items-center gap-3 w-[90%] sm:w-auto justify-center sm:justify-start">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M20 6L9 17l-5-5"></path>
+          </svg>
+          <span className="truncate">{toastMessage}</span>
+        </div>
+      )}
+
     </div>
   )
 }
