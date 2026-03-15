@@ -1,169 +1,104 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react';
 
 export default function ProductCard({ product, addToCart }) {
-  const hasVariants = product.variants && product.variants.length > 0;
-  
-  const [activeVariant, setActiveVariant] = useState(hasVariants ? product.variants[0] : null);
-  const [selectedSize, setSelectedSize] = useState(product.sizes?.[0] || '');
+  // 1. Setup states for selected options
+  const [selectedColor, setSelectedColor] = useState(product.variants?.[0]?.color || '');
+  const [selectedSize, setSelectedSize] = useState(product.sizes?.[0] || product.models?.[0]?.model || '');
 
-  // THE MAGIC FIX: It checks the variant first. If none exists, it checks the main product.
-  const availableModels = activeVariant?.models || product.models || [];
+  // 2. Find the active variant based on the color the user clicked
+  const activeVariant = product.variants?.find(v => v.color === selectedColor);
 
-  const [selectedModel, setSelectedModel] = useState(
-    availableModels.length > 0 ? availableModels[0].model : ''
-  );
+  // 3. Get the correct image to display
+  const displayImage = activeVariant?.image || product.image;
 
-  useEffect(() => {
-    if (availableModels.length > 0) {
-      const modelExists = availableModels.some(m => m.model === selectedModel);
-      if (!modelExists) {
-        setSelectedModel(availableModels[0].model);
-      }
-    } else {
-      setSelectedModel('');
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [activeVariant]);
-
-  const displayImage = hasVariants ? activeVariant.image : product.image;
-  
-  let displayColorName = '';
-  if (hasVariants && activeVariant.color) {
-    displayColorName = activeVariant.style ? `${activeVariant.color} (${activeVariant.style})` : activeVariant.color;
-  }
-
-  const handleAddToCart = () => {
-    if (product.inStock) {
-      const finalSize = selectedModel || selectedSize;
-      addToCart(product, displayColorName, finalSize);
-    }
+  // 4. THE FIX: Check if THIS specific variant is in stock!
+  // It checks for 'instock' or 'inStock' just in case of typos.
+  let isAvailable = true;
+  if (activeVariant && (activeVariant.instock !== undefined || activeVariant.inStock !== undefined)) {
+    isAvailable = activeVariant.instock ?? activeVariant.inStock;
+  } else {
+    isAvailable = product.inStock ?? true;
   }
 
   return (
-    <div className={`group flex flex-col ${!product.inStock ? 'opacity-75' : ''}`}>
-      
-      <div className="w-full overflow-hidden rounded-2xl bg-vanilla relative">
-        <img
-          src={displayImage}
-          alt={product.name}
-          className={`h-[22rem] w-full object-cover object-center transition-transform duration-700 ease-in-out ${product.inStock ? 'group-hover:scale-105' : 'grayscale-[50%]'}`}
+    <div className="flex flex-col gap-4">
+      {/* Product Image with dynamic Sold Out overlay */}
+      <div className="relative group overflow-hidden rounded-2xl bg-vanilla aspect-[4/5]">
+        <img 
+          src={displayImage} 
+          alt={product.name} 
+          className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ${!isAvailable ? 'opacity-60 grayscale' : ''}`}
         />
-        {!product.inStock && (
-          <div className="absolute inset-0 bg-oatmilk/40 backdrop-blur-[2px] flex items-center justify-center">
-            <span className="bg-espresso text-oatmilk px-6 py-2 rounded-full font-serif tracking-widest text-sm uppercase">
+        {!isAvailable && (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <span className="bg-espresso text-oatmilk text-xs font-bold tracking-widest uppercase px-4 py-2 rounded-full">
               Sold Out
             </span>
           </div>
         )}
       </div>
-      
-      <div className="mt-5 flex flex-col text-espresso">
-        <div className="flex justify-between items-start mb-2">
-          <div>
-            <h3 className="text-lg font-medium tracking-wide">{product.name}</h3>
-            <p className="text-xs tracking-widest uppercase mt-1 text-espresso/50">
-              {product.category}
+
+      <div>
+        <div className="flex justify-between items-start mb-1">
+          <h3 className="font-serif text-lg text-espresso">{product.name}</h3>
+          <span className="text-sm font-medium text-espresso/80">${product.price.toFixed(2)}</span>
+        </div>
+        <p className="text-xs text-espresso/50 uppercase tracking-wider mb-3">{product.category}</p>
+
+        {/* Color Swatches */}
+        {product.variants && product.variants.length > 0 && (
+          <div className="mb-3">
+            <p className="text-[10px] font-bold tracking-wider uppercase text-espresso mb-2">
+              Color: <span className="text-espresso/60 font-normal">{selectedColor}</span>
             </p>
+            <div className="flex flex-wrap gap-2">
+              {product.variants.map((variant) => {
+                 // Dim the swatch slightly if that specific color is sold out
+                 const isVariantInStock = variant.instock ?? variant.inStock ?? true;
+                 return (
+                  <button 
+                    key={variant.color}
+                    onClick={() => setSelectedColor(variant.color)}
+                    className={`w-8 h-8 rounded-full border-2 overflow-hidden transition-all ${selectedColor === variant.color ? 'border-espresso scale-110' : 'border-transparent'} ${!isVariantInStock ? 'opacity-40' : ''}`}
+                    title={!isVariantInStock ? `${variant.color} (Sold Out)` : variant.color}
+                  >
+                    <img src={variant.image} alt={variant.color} className="w-full h-full object-cover" />
+                  </button>
+                 )
+              })}
+            </div>
           </div>
-          <p className="text-lg font-medium">${product.price.toFixed(2)}</p>
-        </div>
+        )}
 
-        <div className="mt-4 space-y-5">
-          
-          {hasVariants && product.variants.length > 1 && (
-            <div className="flex flex-col gap-2">
-              {displayColorName && (
-                <p className="text-sm font-bold text-espresso">
-                  Color: <span className="font-normal text-espresso/80">{displayColorName}</span>
-                </p>
-              )}
-              
-              <div className="flex flex-wrap gap-2">
-                {product.variants.map((variant, idx) => (
-                  <button
-                    key={idx}
-                    onClick={() => setActiveVariant(variant)}
-                    className={`w-14 h-14 rounded-md overflow-hidden border-2 transition-all p-0.5 ${
-                      activeVariant === variant 
-                        ? 'border-espresso' 
-                        : 'border-transparent hover:border-espresso/30'
-                    }`}
-                    aria-label={`Select option`}
-                  >
-                    <img 
-                      src={variant.image} 
-                      alt="option" 
-                      className="w-full h-full object-cover rounded-sm"
-                    />
-                  </button>
+        {/* Size / Model Options */}
+        {(product.sizes || product.models) && (
+          <div className="mb-4">
+            <p className="text-[10px] font-bold tracking-wider uppercase text-espresso mb-2">
+              {product.sizeLabel || (product.models ? 'Model' : 'Size')}
+            </p>
+            <div className="relative">
+              <select
+                value={selectedSize}
+                onChange={(e) => setSelectedSize(e.target.value)}
+                className="w-full appearance-none bg-transparent border-b border-espresso/30 pb-2 text-sm text-espresso outline-none focus:border-espresso cursor-pointer"
+              >
+                {(product.sizes || product.models.map(m => m.model)).map((sizeOption) => (
+                  <option key={sizeOption} value={sizeOption}>{sizeOption}</option>
                 ))}
-              </div>
+              </select>
             </div>
-          )}
+          </div>
+        )}
 
-          {/* DYNAMIC MODELS RENDER */}
-          {availableModels.length > 0 && (
-            <div className="space-y-2">
-              <p className="text-xs font-bold text-espresso/70 uppercase tracking-wider pl-1">Device Model</p>
-              <div className="flex flex-wrap gap-2">
-                {availableModels.map((m, idx) => (
-                  <button
-                    key={idx}
-                    onClick={() => setSelectedModel(m.model)}
-                    className={`px-4 py-2 rounded-full text-xs transition-all border ${
-                      selectedModel === m.model
-                        ? 'border-espresso text-espresso font-semibold shadow-sm'
-                        : 'border-espresso/20 text-espresso/70 hover:border-espresso/40 bg-oatmilk'
-                    }`}
-                  >
-                    {m.model}
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* REGULAR SIZES RENDER */}
-          {product.sizes?.length > 0 && (
-            <div className="space-y-2">
-              <p className="text-xs font-bold text-espresso/70 uppercase tracking-wider pl-1">
-                    {product.sizeLabel || 'Size'}
-                </p>
-              <div className="flex flex-wrap gap-2">
-                {product.sizes.map((size, idx) => (
-                  <button
-                    key={idx}
-                    onClick={() => setSelectedSize(size)}
-                    className={`px-4 py-2 rounded-full text-xs transition-all border ${
-                      selectedSize === size
-                        ? 'border-espresso text-espresso font-semibold shadow-sm'
-                        : 'border-espresso/20 text-espresso/70 hover:border-espresso/40 bg-oatmilk'
-                    }`}
-                  >
-                    {size}
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {product.inStock ? (
-            <button 
-              onClick={handleAddToCart}
-              className="w-full py-3.5 mt-2 rounded-xl bg-espresso text-oatmilk font-medium text-sm tracking-wide hover:bg-espresso/80 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 active:scale-95 uppercase"
-            >
-              Add to Cart
-            </button>
-          ) : (
-            <button 
-              disabled
-              className="w-full py-3.5 mt-2 rounded-xl bg-espresso/20 text-espresso/60 font-medium text-sm tracking-wide cursor-not-allowed uppercase"
-            >
-              Currently Unavailable
-            </button>
-          )}
-        </div>
+        {/* Dynamic Add to Cart Button */}
+        <button 
+          onClick={() => addToCart(product, selectedColor, selectedSize)}
+          disabled={!isAvailable}
+          className="w-full py-3 mt-4 rounded-xl bg-espresso text-oatmilk font-medium text-xs tracking-widest uppercase hover:bg-espresso/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+        >
+          {isAvailable ? 'Add to Cart' : 'Sold Out'}
+        </button>
       </div>
     </div>
-  )
+  );
 }

@@ -352,31 +352,38 @@
     "variants": [
       {
         "color": "Clear",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/04/7a/17490346768a0fa23a7f45431ece6c4382083bad28_thumbnail_750x999.jpg"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/04/7a/17490346768a0fa23a7f45431ece6c4382083bad28_thumbnail_750x999.jpg",
+        "inStock": true
       },
       {
         "color": "Black",
-        "image": "https://m.media-amazon.com/images/I/71LRzPIDuML._AC_UF1000,1000_QL80_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71LRzPIDuML._AC_UF1000,1000_QL80_.jpg",
+        "inStock": true
       },
       {
         "color": "Red",
-        "image": "https://i5.walmartimages.com/seo/Fun-Casery-Designed-for-iPhone-14-Case-with-Built-in-Screen-Protector-Heavy-Duty-Full-Body-Protection-Rugged-Shockproof-Clear-Case-Cover-Red_1ad194f3-2a12-4b9f-9656-7813220bc8ea.106ca5d0002f7d5ada762108e2bc4591.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+        "image": "https://i5.walmartimages.com/seo/Fun-Casery-Designed-for-iPhone-14-Case-with-Built-in-Screen-Protector-Heavy-Duty-Full-Body-Protection-Rugged-Shockproof-Clear-Case-Cover-Red_1ad194f3-2a12-4b9f-9656-7813220bc8ea.106ca5d0002f7d5ada762108e2bc4591.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+        "inStock": true
       },
       {
         "color": "Purple",
-        "image": "https://m.media-amazon.com/images/I/71WzNfS9XsL.jpg"
+        "image": "https://m.media-amazon.com/images/I/71WzNfS9XsL.jpg",
+        "inStock": true
       },
       {
         "color": "Pink",
-        "image": "https://sc04.alicdn.com/kf/H753cee25312b48489ad63bc72da3cedcV.jpeg"
+        "image": "https://sc04.alicdn.com/kf/H753cee25312b48489ad63bc72da3cedcV.jpeg",
+        "inStock": true
       },
       {
         "color": "Blue",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2ZGOnUHUOw8P1-sXXArbUwAlz84Y9vnLqVsTP1KnT1eWnC1Mo"
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2ZGOnUHUOw8P1-sXXArbUwAlz84Y9vnLqVsTP1KnT1eWnC1Mo",
+        "inStock": true
       },
       {
         "color": "Green",
-        "image": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/e0c2f6287013985bac61c80b7991cf08.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+        "image": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/e0c2f6287013985bac61c80b7991cf08.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+        "inStock": true
       }
     ],
     "inStock": true
@@ -390,31 +397,38 @@
     "variants": [
       {
         "color": "Pink",
-        "image": "https://s.alicdn.com/@sc04/kf/Hd41f89ad3c564c58bfd710938c17677fL/Wholesale-Women-Accessories-Hair-Clips-Elegant-Hair-Claw-Customized-Color-Multiple-Shaped-Hair-Clip-Claw-Set.jpg"
+        "image": "https://s.alicdn.com/@sc04/kf/Hd41f89ad3c564c58bfd710938c17677fL/Wholesale-Women-Accessories-Hair-Clips-Elegant-Hair-Claw-Customized-Color-Multiple-Shaped-Hair-Clip-Claw-Set.jpg",
+        "inStock": true
       },
       {
         "color": "Baby Blue",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/11/09/6f/1762683351f0a99b0e5b5099d1dcacc75b20965024_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/11/09/6f/1762683351f0a99b0e5b5099d1dcacc75b20965024_thumbnail_750x999.webp",
+        "inStock": true
       },
       {
         "color": "Royal Blue",
-        "image": "https://img.kwcdn.com/product/fancy/f7c4d045-8c4e-4694-adfd-2815a4ec09c1.jpg"
+        "image": "https://img.kwcdn.com/product/fancy/f7c4d045-8c4e-4694-adfd-2815a4ec09c1.jpg",
+        "inStock": true
       },
       {
         "color": "Red",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/11/09/14/1762683401df07c70f2c5b9c75ac864823fe3db33d_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/11/09/14/1762683401df07c70f2c5b9c75ac864823fe3db33d_thumbnail_750x999.webp",
+        "inStock": true
       },
       {
         "color": "Nude + Brown",
-        "image": "https://img.kwcdn.com/product/open/2024-08-08/1723099954253-4cf9cee923cb41bba7d2dd301badea72-goods.jpeg"
+        "image": "https://img.kwcdn.com/product/open/2024-08-08/1723099954253-4cf9cee923cb41bba7d2dd301badea72-goods.jpeg",
+        "inStock": true
       },
       {
         "color": "Light Pink",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/11/09/26/176268175845a02f3581d1e9c83efe17b10fdbb627_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/11/09/26/176268175845a02f3581d1e9c83efe17b10fdbb627_thumbnail_750x999.webp",
+        "inStock": true
       },
       {
         "color": "Black",
-        "image": "https://static-01.daraz.com.bd/p/75cf3cb9cce9bcb5dcb7855266331b69.jpg"
+        "image": "https://static-01.daraz.com.bd/p/75cf3cb9cce9bcb5dcb7855266331b69.jpg",
+        "inStock": true
       }
     ],
     "inStock": true
@@ -469,15 +483,18 @@
     "variants": [
       {
         "color": "Pink Marble",
-        "image": "https://img.ltwebstatic.com/images3_spmp/2024/08/24/21/1724477937af4f2e95fd3e5bd2712742e4e44a9942_thumbnail_720x.webp"
+        "image": "https://img.ltwebstatic.com/images3_spmp/2024/08/24/21/1724477937af4f2e95fd3e5bd2712742e4e44a9942_thumbnail_720x.webp",
+        "inStock": true
       },
       {
         "color": "Purple Marble",
-        "image": "https://img.ltwebstatic.com/v4/p/spmp/2025/08/23/d0/175594318523c6ddf6e54ac3a71efdbb2768cc6a6a_thumbnail_405x552.png"
+        "image": "https://img.ltwebstatic.com/v4/p/spmp/2025/08/23/d0/175594318523c6ddf6e54ac3a71efdbb2768cc6a6a_thumbnail_405x552.png",
+        "inStock": true
       },
       {
         "color": "Blue Marble",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/02/06/90/17703532587b149a62dd1c03de6ee3e428245f2c25_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/02/06/90/17703532587b149a62dd1c03de6ee3e428245f2c25_thumbnail_750x999.webp",
+        "inStock": true
       }
     ],
     "inStock": true
@@ -500,15 +517,18 @@
     "variants": [
       {
         "color": "Pink",
-        "image": "https://ae01.alicdn.com/kf/Sb66f46acd66b45dbafaf2e0a16bec0bbx.jpg"
+        "image": "https://ae01.alicdn.com/kf/Sb66f46acd66b45dbafaf2e0a16bec0bbx.jpg",
+        "inStock": true
       },
       {
         "color": "Multicolor",
-        "image": "https://img.kwcdn.com/product/fancy/ef7f24bd-d463-4e60-9f9f-527769b84272.jpg"
+        "image": "https://img.kwcdn.com/product/fancy/ef7f24bd-d463-4e60-9f9f-527769b84272.jpg",
+        "inStock": true
       },
       {
         "color": "Purple",
-        "image": "https://ae01.alicdn.com/kf/S54dbac49ce814d57aec14b0fbd6e2e379.jpeg"
+        "image": "https://ae01.alicdn.com/kf/S54dbac49ce814d57aec14b0fbd6e2e379.jpeg",
+        "inStock": true
       }
     ],
     "inStock": true
@@ -522,15 +542,18 @@
     "variants": [
       {
         "color": "White + Black bows",
-        "image": "https://m.media-amazon.com/images/I/61ajt25IkML.jpg"
+        "image": "https://m.media-amazon.com/images/I/61ajt25IkML.jpg",
+        "inStock": true
       },
       {
         "color": "White + Pink bows",
-        "image": "https://www.stickybestie.com/cdn/shop/files/unnamed_51.png?v=1768051956&width=1946"
+        "image": "https://www.stickybestie.com/cdn/shop/files/unnamed_51.png?v=1768051956&width=1946",
+        "inStock": true
       },
       {
         "color": "Black + Pink bows",
-        "image": "https://www.stickybestie.com/cdn/shop/files/unnamed_52.png?v=1768051956&width=1946"
+        "image": "https://www.stickybestie.com/cdn/shop/files/unnamed_52.png?v=1768051956&width=1946",
+        "inStock": true
       }
     ],
     "inStock": true
@@ -562,19 +585,23 @@
     "variants": [
       {
         "color": "Floral",
-        "image": "https://s.alicdn.com/@sc04/kf/H4e56d40652e34328bf5d41eb877082d2O.jpg"
+        "image": "https://s.alicdn.com/@sc04/kf/H4e56d40652e34328bf5d41eb877082d2O.jpg",
+        "inStock": true
       },
       {
         "color": "Hearts",
-        "image": "https://img.kwcdn.com/product/open/2023-10-25/1698239342751-783019f4268746e68ef098a91478ed99-goods.jpeg"
+        "image": "https://img.kwcdn.com/product/open/2023-10-25/1698239342751-783019f4268746e68ef098a91478ed99-goods.jpeg",
+        "inStock": true
       },
       {
         "color": "Butterflies",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/22/76/1753152518446f4a4c1956bbbab3325cae70d55c62_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/22/76/1753152518446f4a4c1956bbbab3325cae70d55c62_thumbnail_750x999.webp",
+        "inStock": true
       },
       {
         "color": "Dinosaurs",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/22/32/17531525243db70aa4d2e78c393cb0421a9bc1eb79_thumbnail_405x552.jpg"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/22/32/17531525243db70aa4d2e78c393cb0421a9bc1eb79_thumbnail_405x552.jpg",
+        "inStock": true
       }
     ],
     "inStock": true
@@ -588,11 +615,13 @@
     "variants":[
       {
         "color":"Black",
-        "image" : "https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/s/08/635ac118-6054-4830-9ba2-400597dda278.jpg"
+        "image" : "https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/s/08/635ac118-6054-4830-9ba2-400597dda278.jpg",
+        "inStock": true
       },
       {
         "color":"White",
-        "image" : "https://img.kwcdn.com/product/fancy/12edad1b-e725-4ab7-b39a-e74ae981d8ef.jpg"
+        "image" : "https://img.kwcdn.com/product/fancy/12edad1b-e725-4ab7-b39a-e74ae981d8ef.jpg",
+        "inStock": true
       }
     ],
     "inStock": true
@@ -606,35 +635,43 @@
     "variants": [
       {
         "color": "Black 1",
-        "image": "https://www.fashionglamourjewellery.com/cdn/shop/files/IMG-6413_grande.jpg?v=1730587919"
+        "image": "https://www.fashionglamourjewellery.com/cdn/shop/files/IMG-6413_grande.jpg?v=1730587919",
+        "inStock": true
       },
       {
         "color": "Black 2",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/08/26/6e/17561765670145f4c861b4d8bc7d51dd53e64cc114_thumbnail_405x552_thumbnail_720x.jpg"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/08/26/6e/17561765670145f4c861b4d8bc7d51dd53e64cc114_thumbnail_405x552_thumbnail_720x.jpg",
+        "inStock": true
       },
       {
         "color": "Pink",
-        "image": "https://www.fashionglamourjewellery.com/cdn/shop/files/IMG-6423_300x300.jpg?v=1730587601"
+        "image": "https://www.fashionglamourjewellery.com/cdn/shop/files/IMG-6423_300x300.jpg?v=1730587601",
+        "inStock": true
       },
       {
         "color": "Purple",
-        "image": "https://img.ltwebstatic.com/images3_spmp/2024/03/21/48/171098481676ab2ec655d1fe72b04e2654bf28ebcd_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/images3_spmp/2024/03/21/48/171098481676ab2ec655d1fe72b04e2654bf28ebcd_thumbnail_750x999.webp",
+        "inStock": true
       },
       {
         "color": "White 1",
-        "image": "https://www.pakstyle.pk/cdn/shop/files/p18154-5-piece-leaf-clover-design-jewelry-set.jpg?v=1759484987"
+        "image": "https://www.pakstyle.pk/cdn/shop/files/p18154-5-piece-leaf-clover-design-jewelry-set.jpg?v=1759484987",
+        "inStock": true
       },
        {
         "color": "White 2",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/16/83/1758009189b31dd55b7bce92fbe9bb0b622a16b9a4_thumbnail_336x.jpg"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/16/83/1758009189b31dd55b7bce92fbe9bb0b622a16b9a4_thumbnail_336x.jpg",
+        "inStock": true
       },
       {
         "color": "Green",
-        "image": "https://img.kwcdn.com/product/fancy/14c53b0d-8727-4825-9bbb-f34b5aa76825.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+        "image": "https://img.kwcdn.com/product/fancy/14c53b0d-8727-4825-9bbb-f34b5aa76825.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+        "inStock": true
       },
      {
         "color": "Brown",
-        "image": "https://img.ltwebstatic.com/images3_spmp/2024/03/21/30/1710984782e93492514e70d20911044bf6cd490f51_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/images3_spmp/2024/03/21/30/1710984782e93492514e70d20911044bf6cd490f51_thumbnail_750x999.webp",
+        "inStock": true
      }
     ],
     "inStock": true
@@ -677,11 +714,13 @@
     "variants":[
       {
         "color": "Silver",
-        "image": "https://img.kwcdn.com/product/fancy/3d0252dc-3688-4d90-aada-ed3577a09dbb.jpg"
+        "image": "https://img.kwcdn.com/product/fancy/3d0252dc-3688-4d90-aada-ed3577a09dbb.jpg",
+        "inStock": true
       },
       {
         "color": "Gold",
-        "image": "https://gh.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/80/3594003/1.jpg?4583"
+        "image": "https://gh.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/80/3594003/1.jpg?4583",
+        "inStock": true
       }
     ],
       "inStock": true
@@ -696,43 +735,53 @@
     "variants":[
       {
         "color": "Black",
-        "image": "https://ae01.alicdn.com/kf/S45d715fc7d1c4e74b907143de1aca4bcL.jpg"
+        "image": "https://ae01.alicdn.com/kf/S45d715fc7d1c4e74b907143de1aca4bcL.jpg",
+        "inStock": true
       },
       {
         "color": "White",
-        "image": "https://m.media-amazon.com/images/I/71bhxEmD0YL._AC_SL1340_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71bhxEmD0YL._AC_SL1340_.jpg",
+        "inStock": true
       },
       {
         "color": "Pink",
-        "image": "https://pictures-ghana.jijistatic.net/55578137_NjIwLTU0NS1iMzNlNTIwMzY0.webp"
+        "image": "https://pictures-ghana.jijistatic.net/55578137_NjIwLTU0NS1iMzNlNTIwMzY0.webp",
+        "inStock": true
       },
       {
         "color": "Purple",
-        "image": "https://i5.walmartimages.com/asr/c0ecc898-b6f2-4a82-b431-e9215290f5d8.3405d161ffe9bae4e49d2f9a68b5eb4c.jpeg"
+        "image": "https://i5.walmartimages.com/asr/c0ecc898-b6f2-4a82-b431-e9215290f5d8.3405d161ffe9bae4e49d2f9a68b5eb4c.jpeg",
+        "inStock": true
       },
       {
         "color": "Red",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/29/88/1745911862b8e2d08e5b17f733d44e24400420282d_thumbnail_405x552.jpg"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/29/88/1745911862b8e2d08e5b17f733d44e24400420282d_thumbnail_405x552.jpg",
+        "inStock": true
       },
       {
         "color": "Turquoise Blue",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/19/fb/175031859365f06253ca55fcffbba36e73d05dc51e_thumbnail_405x552.jpg"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/06/19/fb/175031859365f06253ca55fcffbba36e73d05dc51e_thumbnail_405x552.jpg",
+        "inStock": true
       },
       {
         "color": "Light Blue",
-        "image": "https://img.ltwebstatic.com/images3_spmp/2023/05/27/1685170737f5af85c28432a52dc4d5e1ba22bdda95_square_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/images3_spmp/2023/05/27/1685170737f5af85c28432a52dc4d5e1ba22bdda95_square_thumbnail_750x999.webp",
+        "inStock": true
       },
       {
         "color": "Lake Blue",
-        "image": "https://img.ltwebstatic.com/images3_spmp/2023/08/18/ef/1692340199f537b0cf954b54498a631877dae61885_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/images3_spmp/2023/08/18/ef/1692340199f537b0cf954b54498a631877dae61885_thumbnail_750x999.webp",
+        "inStock": true
       },
       {
         "color": "Green",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/29/42/174591186246315b4c2a439a737b976aa2d8adae07_thumbnail_405x552.jpg"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/29/42/174591186246315b4c2a439a737b976aa2d8adae07_thumbnail_405x552.jpg",
+        "inStock": true
       },
       {
         "color": "Brown",
-        "image": "https://i5.walmartimages.com/asr/09355cac-1a27-410b-ba37-859fb789335a.c3deb95e94bacf4e50b8c70707e550c4.jpeg"
+        "image": "https://i5.walmartimages.com/asr/09355cac-1a27-410b-ba37-859fb789335a.c3deb95e94bacf4e50b8c70707e550c4.jpeg",
+        "inStock": true
       }
 
     ],
@@ -747,11 +796,13 @@
     "variants":[
       {
         "color": "Silver",
-        "image": "https://ae01.alicdn.com/kf/S45d14ef6a38d4b5da9d4c6b45243889dn.jpg"
+        "image": "https://ae01.alicdn.com/kf/S45d14ef6a38d4b5da9d4c6b45243889dn.jpg",
+        "inStock": true
       },
       {
         "color": "Gold",
-        "image": "https://s.alicdn.com/@sc04/kf/Hd43c2a6c67f2461891d02667bf5d01c7r/Go-Party-Fashion-5pcs-Set-Diamond-Tulip-Butterfly-Bracelet-Set-Metal-Alloy-Crystal-Tennis-Chain-Heart-Cuff-Bracelets-Bangles.jpg"
+        "image": "https://s.alicdn.com/@sc04/kf/Hd43c2a6c67f2461891d02667bf5d01c7r/Go-Party-Fashion-5pcs-Set-Diamond-Tulip-Butterfly-Bracelet-Set-Metal-Alloy-Crystal-Tennis-Chain-Heart-Cuff-Bracelets-Bangles.jpg",
+        "inStock": true
       }
     ],
       "inStock": true
@@ -765,15 +816,18 @@
     "variants":[
       {
         "color": "Silver",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/10/12/a0/1760243690083137cbcd4ce63deeb7ef7e40285f18_square_thumbnail_405x552.jpg"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/10/12/a0/1760243690083137cbcd4ce63deeb7ef7e40285f18_square_thumbnail_405x552.jpg",
+        "inStock": true
       },
       {
         "color": "Gold 1",
-        "image": "https://s.alicdn.com/@sc04/kf/H5fb000d6b9414f2894cfbc67a9248997P/HL-Newly-Released-10-Pairs-of-Irregular-CCB-Gold-Plated-Hoop-Earrings-for-Women-Fashion-Accessory.jpg"
+        "image": "https://s.alicdn.com/@sc04/kf/H5fb000d6b9414f2894cfbc67a9248997P/HL-Newly-Released-10-Pairs-of-Irregular-CCB-Gold-Plated-Hoop-Earrings-for-Women-Fashion-Accessory.jpg",
+        "inStock": true
       },
       {
         "color": "Gold 2",
-        "image": "https://img.kwcdn.com/product/fancy/ee431d01-2b0b-4901-9321-9ad81f3aa057.jpg"
+        "image": "https://img.kwcdn.com/product/fancy/ee431d01-2b0b-4901-9321-9ad81f3aa057.jpg",
+        "inStock": true
       }
     ],
       "inStock": true
@@ -787,11 +841,13 @@
     "variants":[
       {
         "color": "Silver",
-        "image": "https://img.kwcdn.com/product/fancy/f834fc7c-b868-46f0-bcdd-ac6b9247cc8e.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+        "image": "https://img.kwcdn.com/product/fancy/f834fc7c-b868-46f0-bcdd-ac6b9247cc8e.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp",
+        "inStock": true
       },
       {
         "color": "Gold",
-        "image": "https://img.kwcdn.com/product/fancy/52aa8114-23ae-4dc6-a3f0-2639fceb56a3.jpg"
+        "image": "https://img.kwcdn.com/product/fancy/52aa8114-23ae-4dc6-a3f0-2639fceb56a3.jpg",
+        "inStock": true
 
   }
 ],
@@ -815,11 +871,13 @@
     "variants":[
       {
         "color": "Silver",
-        "image": "https://i.ebayimg.com/images/g/W4QAAOSw9xxjhBE8/s-l1200.jpg"
+        "image": "https://i.ebayimg.com/images/g/W4QAAOSw9xxjhBE8/s-l1200.jpg",
+        "inStock": true
       },
       {
         "color": "Gold",
-        "image": "https://global2019-static-cdn.kikuu.com/upload-productImg-1610156201824.jpeg?x-oss-process=style/p85"
+        "image": "https://global2019-static-cdn.kikuu.com/upload-productImg-1610156201824.jpeg?x-oss-process=style/p85",
+        "inStock": true
       }
     ],
     "inStock": true
@@ -842,11 +900,13 @@
     "variants":[
       {
         "color":"Pink",
-        "image": "https://img.kwcdn.com/product/fancy/717fa85a-9ea3-46a6-8b34-d10440e4783e.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+        "image": "https://img.kwcdn.com/product/fancy/717fa85a-9ea3-46a6-8b34-d10440e4783e.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+        "inStock": true
       },
       {
         "color":"Red",
-        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/07/04/1d/1751611006b1dce26c47a62e4599eddb033d0a0874_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/07/04/1d/1751611006b1dce26c47a62e4599eddb033d0a0874_thumbnail_750x999.webp",
+        "inStock": true
       }
     ],
     "inStock": true
@@ -860,23 +920,28 @@
     "variants":[
       {
         "color":"Pink",
-        "image": "https://i.ebayimg.com/images/g/QOoAAOSwLrZmRSLD/s-l1200.jpg"
+        "image": "https://i.ebayimg.com/images/g/QOoAAOSwLrZmRSLD/s-l1200.jpg",
+        "inStock": true
       },
       {
         "color":"White",
-        "image": "https://img.ltwebstatic.com/images3_pi/2023/08/09/ef/169157280152fc8186ab84a615a060b8d15405612b_thumbnail_405x552.jpg"
+        "image": "https://img.ltwebstatic.com/images3_pi/2023/08/09/ef/169157280152fc8186ab84a615a060b8d15405612b_thumbnail_405x552.jpg",
+        "inStock": true
       },
       {
         "color":"Blue",
-        "image": "https://img.ltwebstatic.com/images3_pi/2023/08/09/86/16915728078b3c33ff6003d9d0faa06c10ca37a05f_thumbnail_405x552.jpg"
+        "image": "https://img.ltwebstatic.com/images3_pi/2023/08/09/86/16915728078b3c33ff6003d9d0faa06c10ca37a05f_thumbnail_405x552.jpg",
+        "inStock": true
       },
       {
         "color":"Rose Red",
-        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/08/01/1f/1754011912d3ba3ea8d7c5d21ef0648e8b3332747c_thumbnail_405x552.jpg"
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/08/01/1f/1754011912d3ba3ea8d7c5d21ef0648e8b3332747c_thumbnail_405x552.jpg",
+        "inStock": true
       },
       {
         "color":"Cream",
-        "image": "https://img.ltwebstatic.com/images3_pi/2023/08/18/ef/16923222259e205a5701ed700fa741835cc3569f0f_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/images3_pi/2023/08/18/ef/16923222259e205a5701ed700fa741835cc3569f0f_thumbnail_750x999.webp",
+        "inStock": true
       }
     ],
     "inStock": true
@@ -890,11 +955,13 @@
     "variants":[
       {
         "color":"Champagne",
-        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/09/30/48/1759201564d24bf78874b465fd6b4c595d0fc44fbc_thumbnail_405x552.jpg"
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/09/30/48/1759201564d24bf78874b465fd6b4c595d0fc44fbc_thumbnail_405x552.jpg",
+        "inStock": true
       },
       {
         "color":"Dusty Pink",
-        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/08/04/bb/17542744056753dd8d5eddbc49e3c82e888fa8494b_thumbnail_405x552.webp"
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/08/04/bb/17542744056753dd8d5eddbc49e3c82e888fa8494b_thumbnail_405x552.webp",
+        "inStock": true
       }
     ],
     "inStock": true
@@ -917,11 +984,13 @@
       "variants":[
         {
           "color":"Pink",
-          "image": "https://shopcube.mx/cdn/shop/files/9CE0F628-BF52-438B-B994-89817CF1F192.jpg?v=1769535574&width=3840"
+          "image": "https://shopcube.mx/cdn/shop/files/9CE0F628-BF52-438B-B994-89817CF1F192.jpg?v=1769535574&width=3840",
+          "inStock": true
         },
         {
           "color":"Purple",
-          "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/29/9e/17696751467e5ae6be8b41b7a0da9180d51fb82411_thumbnail_750x999.webp"
+          "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/29/9e/17696751467e5ae6be8b41b7a0da9180d51fb82411_thumbnail_750x999.webp",
+          "inStock": true
         }
       ],
     "inStock": true
@@ -943,15 +1012,18 @@
     "variants":[
       {
         "color": "Pink",
-        "image": "https://img.kwcdn.com/product/fancy/8e479332-918b-49f7-a744-de07d75d842c.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+        "image": "https://img.kwcdn.com/product/fancy/8e479332-918b-49f7-a744-de07d75d842c.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+          "inStock": true
       },
       {
         "color": "Blue",
-        "image": "https://img.kwcdn.com/product/fancy/eca3330c-4a88-402f-98cf-997d5fc987bc.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+        "image": "https://img.kwcdn.com/product/fancy/eca3330c-4a88-402f-98cf-997d5fc987bc.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp",
+          "inStock": true
       },
       {
         "color": "Black",
-        "image": "https://images-cdn.ubuy.co.in/66aa4b4790b4826988195e6d-2-laundry-baskets-pop-up-laundry.jpg"
+        "image": "https://images-cdn.ubuy.co.in/66aa4b4790b4826988195e6d-2-laundry-baskets-pop-up-laundry.jpg",
+          "inStock": true
       }
     ],
     "description": "A minimalist, breathable, portable, moisture-proof, foldable laundry basket for convenient storage and organization.",
@@ -967,15 +1039,18 @@
     "variants": [
       {
         "color": "Red Grid",
-        "image": "https://i5.walmartimages.com/asr/e3f4fac3-7a0e-4b3a-ae9a-8f2f272dca8c.0e7e985599a4cfb7ece5c5132be2257a.jpeg"
+        "image": "https://i5.walmartimages.com/asr/e3f4fac3-7a0e-4b3a-ae9a-8f2f272dca8c.0e7e985599a4cfb7ece5c5132be2257a.jpeg",
+        "inStock": true
       },
       {
         "color": "Yellow Grid",
-        "image": "https://img.kwcdn.com/product/fancy/84e3564a-744f-4fc3-9ab5-240a10605f52.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+        "image": "https://img.kwcdn.com/product/fancy/84e3564a-744f-4fc3-9ab5-240a10605f52.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+          "inStock": true
       },
       {
         "color": "Green Grid",
-        "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/27/49/17695076946b0db7faf44f354cc491262d163d7367_square_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/27/49/17695076946b0db7faf44f354cc491262d163d7367_square_thumbnail_750x999.webp",
+        "inStock": true
 
     }
   ]
@@ -998,30 +1073,167 @@
     "variants": [
       {
         "color": "Batman",
-        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/10/16/15/17606161024643e240aacb34630471224130e036cb_thumbnail_405x552.webp"
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/10/16/15/17606161024643e240aacb34630471224130e036cb_thumbnail_405x552.webp",
+        "inStock": true
       },
       {
         "color": "Best Friends",
-        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/09/30/7f/1759223421add86b25b0bb8faa6418149dceaa49f2_thumbnail_750x999.webp"
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/09/30/7f/1759223421add86b25b0bb8faa6418149dceaa49f2_thumbnail_750x999.webp",
+          "inStock": true
       },
       {
         "color": "Tom & Jerry",
-        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/12/12/cc/176553292924294f3175f2b34ce530d865934c918f_thumbnail_405x552.jpg"
+        "image": "https://img.ltwebstatic.com/v4/j/pi/2025/12/12/cc/176553292924294f3175f2b34ce530d865934c918f_thumbnail_405x552.jpg",
+        "inStock": true
       },
       {
         "color": "The Powerpuff Girls",
-        "image": "https://assets.mercari-shops-static.com/-/large/plain/2JJ9H6VhFJzjEAc9RWv22x.png@jpg"
+        "image": "https://assets.mercari-shops-static.com/-/large/plain/2JJ9H6VhFJzjEAc9RWv22x.png@jpg",
+        "inStock": true
       },
       {
         "color": "Scooby Doo",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT_PaChZc6gX-FhWVQxsYmQby6n7k7hvcZiXtt2xML-Tbwfyt_z"
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT_PaChZc6gX-FhWVQxsYmQby6n7k7hvcZiXtt2xML-Tbwfyt_z",
+        "inStock": true
       },
       {
         "color": "SpongeBob SquarePants",
-        "image": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00693026076311L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+        "image": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00693026076311L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+        "inStock": true
       }
     ],
      "inStock": true
+   },
+   {
+    "id":50,
+    "name": "Crystal Alarm Clock With Night Light, Silent Operation, Battery Powered (Battery Not Included)",
+    "category": "Room Essentials",
+    "price": 8.00,
+    "description": "A crystal alarm clock with a night light feature, silent operation, and battery-powered functionality (battery not included) for a stylish and functional addition to your room.",
+    "variants": [
+      {
+        "color": "Pink",
+        "image": "https://i5.walmartimages.com/asr/917dbead-f31f-4079-b67d-637713ef883b.04f515a5562ac587398c415255fed610.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+        "inStock": true
+      },
+      {
+        "color": "Blue",
+        "image": "https://img.joomcdn.net/b6c5234c3b408688660332ab58eb6a81e07b11d6_original.jpeg",
+        "inStock": true
+      },
+      {
+        "color": "Orange",
+        "image": "https://img.kwcdn.com/product/fancy/721ef688-f99a-48f9-b91f-a57d24cbd6fc.jpg?imageView2/2/w/375/q/50/format/webp",
+        "inStock": true
+      },
+      {
+        "color": "Green",
+        "image": "https://i5.walmartimages.com/asr/dde912dc-cec5-490b-b5c8-a3e7d52e516c.3f9218ae4489494cda1774baf150b664.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+        "inStock": true
+      }
+    ],
+     "inStock": true
+   },
+   {
+    "id":51,
+    "name": "2pcs 3D Flower Curtain Holders",
+    "category": "Room Essentials",
+    "price": 5.00,
+    "description": "A set of 2 curtain holders featuring a 3D flower design for a stylish and functional addition to your room.",
+    "variants": [
+      {
+        "color": "Brown",
+        "image": "https://casa-andbeyond.com/cdn/shop/files/3_af414dee-b843-458d-9fc2-a9cb81e36a1c_800x.jpg?v=1744385195",
+        "inStock": true
+      },
+      {
+        "color": "Beige",
+        "image": "https://s13emagst.akamaized.net/products/83530/83529080/images/res_c6c5fb569628c0052bb580d646d24999.jpg",
+        "inStock": true
+      },
+      {
+        "color": "Brown or Beige Tiebacks",
+        "image": "https://www.myearthybaby.com/cdn/shop/files/Curtain_Ties_9.jpg?v=1722265465&width=1445",
+        "inStock": true
+      }
+    ]
+   },
+   {
+    "id":52,
+    "name": "10m USB Powered LED String Fairy Lights",
+    "category": "Room Essentials",
+    "price": 3.00,
+    "description": "A set of 10 meters of USB-powered LED string fairy lights for a magical atmosphere.",
+    "variants": [
+      {
+        "color": "White",
+        "image": "https://cdn.myshoptet.com/usr/www.scandishop.cz/user/shop/big/76944-1_dekorativni-vanocni-svetelny-retez-50-led-studena-bila-na-baterie.jpg?68db7c10",
+        "inStock": false
+      },
+      {
+        "color": "Warm White",
+        "image": "https://m.media-amazon.com/images/I/71DHMJEg7NL.jpg",
+        "inStock": true
+      },
+      {
+        "color": "Red",
+        "image": "https://m.media-amazon.com/images/I/61njZlj8-PL.jpg",
+        "inStock": true
+      },
+      {
+        "color": "Multicolor",
+        "image": "https://conceptkart.com/cdn/shop/products/Concept-Kart-TECPHILE-30-LED-Fairy-String-Light-Multicolor-1-_5.jpg?v=1678347106",
+        "inStock": true
+      },
+      {
+        "color": "Purple",
+        "image": "https://m.media-amazon.com/images/I/71EBoOijD1L.jpg",
+        "inStock": true
+      },
+      {
+        "color": "Blue",
+        "image": "https://onforuleds.com/cdn/shop/products/ON-DT47-BU-16_250bf7ee-e432-4c71-9c2c-275c8d18d36a_1024x1024.jpg?v=1667274781",
+        "inStock": true
+      }
+    ]
+   },
+   {
+    "id":53,
+    "name": "1pc Multi-Functional Luminous Bedside Alarm Clock",
+    "category": "Room Essentials",
+    "price": 7.00,
+    "description": "A multi-functional luminous bedside alarm clock for a stylish and functional addition to your room.",
+    "image": "https://www.giftoo.in/cdn/shop/files/61jpD9f498L.jpg?v=1747027551&width=1946",
+    "inStock": true
+   },
+   {
+    "id":54,
+    "name": "2pcs Double-Head Tulip Flower Design Curtain Tie Backs",
+    "category": "Room Essentials",
+    "price": 3.00,
+    "description": "A set of 2 curtain tie backs featuring a double-head tulip flower design for a stylish and functional addition to your room.",
+    "variants": [
+      {
+        "color": "Pink",
+        "image": "https://ae01.alicdn.com/kf/Sce4a80a81bac4c0398a98577a18137fb8.jpg",
+        "inStock": true
+      },
+      {
+        "color": "Purple",
+        "image": "https://ae01.alicdn.com/kf/Sd30342c1c7b34079b8ad459de4b78c82q.jpg",
+        "inStock": true
+      },
+      {
+        "color": "Blue",
+        "image": "https://ae01.alicdn.com/kf/S9e77f1e6b7664e4db917ffd1ed1c991aJ.jpg",
+        "inStock": true
+      },
+      {
+        "color": "Beige",
+        "image": "https://i5.walmartimages.com/asr/812ce2f6-11df-490e-a80b-69ee64b9628b.129b156517d4340e233a33fbc359baf0.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+        "inStock": true
+      }
+    ]
    }
 
   
