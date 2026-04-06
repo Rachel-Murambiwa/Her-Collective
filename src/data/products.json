@@ -454,7 +454,7 @@
   {
     "id": "18",
     "name": "Butterfly Pendant Atomizer",
-    "category": "Essentials",
+    "category": "Travel Essentials",
     "price": 2.00,
     "image": "https://m.media-amazon.com/images/I/718iAZbzGhL._AC_UF894,1000_QL80_.jpg",
     "description": "Butterfly pendant atomizer for carrying your scents.",
@@ -463,7 +463,7 @@
   {
     "id": "19",
     "name": "Plain Color Atomizer",
-    "category": "Essentials",
+    "category": "Travel Essentials",
     "price": 1.50,
     "image": "https://img.kwcdn.com/product/fancy/45f86d8b-2252-4c33-a56b-97d0f3ca9353.jpg",
     "description": "Plain color atomizer for carrying your scents.",
@@ -472,7 +472,7 @@
   {
     "id": "20",
     "name": "Marble Initial Passport Cover",
-    "category": "Essentials",
+    "category": "Travel Essentials",
     "price": 3.00,
     "description": "Travel in style with this gorgeous pink marble passport cover featuring your custom gold glitter initial.",
     "sizeLabel": "Initial",
@@ -1168,7 +1168,7 @@
       {
         "color": "White",
         "image": "https://cdn.myshoptet.com/usr/www.scandishop.cz/user/shop/big/76944-1_dekorativni-vanocni-svetelny-retez-50-led-studena-bila-na-baterie.jpg?68db7c10",
-        "inStock": false
+        "inStock": true
       },
       {
         "color": "Warm White",
@@ -1234,6 +1234,51 @@
         "inStock": true
       }
     ]
+   },
+   {
+    "id":55,
+    "name": "10m Colorful Color Change Room Decor Home Decor Led Lights",
+    "category": "Room Essentials",
+    "price": 10.00,
+    "image": "https://m.media-amazon.com/images/I/71R13haY1cL.jpg",
+    "description": "Colorful color change room decor home decor LED lights for a vibrant and dynamic atmosphere.",
+     "inStock": true
+   },
+   {
+    "id":56,
+    "name": "1pc Powerful Transparent Adhesive Wall Hooks",
+    "category": "Room Essentials",
+    "price": 0.25,
+    "image": "https://img.myipadbox.com/upload/store/product_l/TBD0605100101.jpg",
+    "description": "A powerful transparent adhesive wall hook for convenient hanging and organization in your room.",
+    "inStock": true
+   },
+   {
+    "id":57,
+    "name": "1pc Square Non-Prescription Glasses",
+    "category": "Fashion Accessories",
+    "price": 3.00,
+    "image": "https://img.kwcdn.com/product/fancy/6d8881ec-74ff-4f25-9f73-4c616bbe8a9d.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp", 
+    "description": "A pair of square non-prescription glasses for a stylish and trendy look.",
+     "inStock": true
+   },
+   {
+    "id":58,
+    "name": "1pc Mouth Spray",
+    "category": "Beauty",
+    "price": 1.00,
+    "image": "https://img.kwcdn.com/product/fancy/f2e7142e-d829-42bd-85e9-a11c9de1ed4b.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp", 
+    "description": "A mouth spray for fresh breath and oral care.",
+     "inStock": true
+   },
+   {
+    "id":59,
+    "name": "1pc Lip Balm",
+    "category": "Beauty",
+    "price": 0.50,
+    "image": "https://img.kwcdn.com/product/fancy/308c3c9a-0175-4be2-be78-46c63ba9ea55.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp", 
+    "description": "A lip balm for moisturizing and protecting your lips.",
+     "inStock": true
    }
 
   
