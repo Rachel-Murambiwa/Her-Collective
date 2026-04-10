@@ -1279,6 +1279,15 @@
     "image": "https://img.kwcdn.com/product/fancy/308c3c9a-0175-4be2-be78-46c63ba9ea55.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp", 
     "description": "A lip balm for moisturizing and protecting your lips.",
      "inStock": true
+   },
+  {
+    "id":60,
+    "name": "15-Inch Laptop Sticker Set With Cute Bow Pattern, Suitable For Laptops, MacBooks And More",
+    "category": "Stationery",
+    "price": 10.00, 
+    "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/05/19/0d/1747618050f2838a6ed074935d37d802431d76ffaf_thumbnail_750x999.webp",
+    "description": "A set of 15-inch laptop stickers featuring a cute bow pattern, suitable for decorating laptops, MacBooks, and more.",
+     "inStock": true
    }
 
   
