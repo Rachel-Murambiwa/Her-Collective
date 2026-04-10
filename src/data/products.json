@@ -1288,7 +1288,48 @@
     "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/05/19/0d/1747618050f2838a6ed074935d37d802431d76ffaf_thumbnail_750x999.webp",
     "description": "A set of 15-inch laptop stickers featuring a cute bow pattern, suitable for decorating laptops, MacBooks, and more.",
      "inStock": true
+   },
+   {
+    "id":61,
+    "name": "A5 Spiral Notebook + Butterfly Ballpoint Pen, With Double Coils - 60 Pages Per Book",
+    "category": "Stationery",
+    "price": 8.00, 
+    "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/10/20/0a/176095286527c1a5c7681b437e9dfff1b6b604e4e9_thumbnail_405x552.webp",
+    "description": "A set of A5 spiral notebooks with a butterfly ballpoint pen, featuring double coils and 60 pages per book for a stylish and functional stationery set.",
+     "inStock": true
+   },
+   {
+    "id":62,
+    "name": "1pc A5 Spiral Notebook With Cute Cartoon Cover, 60 Sheets Lined Pages",
+    "category": "Stationery",
+    "price": 6.00, 
+    "image": "https://img.ltwebstatic.com/images3_pi/2023/02/03/167541678478e80a0b9fe4da1513fdfada33fd2c13_thumbnail_405x552_thumbnail_720x.jpg",
+    "description": "A set of cute cartoon animal pattern sticky notes for a fun and functional stationery accessory.",
+     "inStock": true
+   },
+   {
+    "id":63,
+    "name": "1pc Romantic Wind A7 Coil Notebook",
+    "category": "Stationery",
+    "price": 4.00, 
+    "description": "A romantic wind A7 coil notebook for a stylish and functional stationery accessory.",
+    "variants": [
+      {
+        "color": "Subfamily Butterfly",
+        "image": "https://img.kwcdn.com/product/fancy/52a57f23-6835-48b4-802e-84539eb73689.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+        "inStock": true
+      },
+      {
+        "color": "Galaxy Butterfly",
+        "image": "https://img.kwcdn.com/product/open/77c1e5080baf4e1fad007eb5452899ab-goods.jpeg",
+        "inStock": true
+      },
+      {
+        "color": "Ballet Pink Butterfly",
+        "image": "https://img.kwcdn.com/product/open/81d94b7b89824c71999383629cb9bd0d-goods.jpeg",
+        "inStock": true
+      }
+     
+]
    }
-
-  
 ]
